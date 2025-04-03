@@ -1,0 +1,23 @@
+{
+  "CLIENT_ID": "d123b433-c0a8-4fa8-b676-70097fd53278",
+  "DEVICE_ID": "7a:0f:87:db:fd:47",
+  "NETWORK": {
+    "OTA_VERSION_URL": "https://api.tenclass.net/xiaozhi/ota/",
+    "WEBSOCKET_URL": "wss://api.tenclass.net/xiaozhi/v1/",
+    "WEBSOCKET_ACCESS_TOKEN": "test-token"
+  },
+  "MQTT_INFO": {
+    "endpoint": "mqtt.xiaozhi.me",
+    "client_id": "GID_test@@@7a_0f_87_db_fd_47",
+    "username": "Signature|LTAI5tF8J3CrdWmRiuTjxHbF|post-cn-apg3xckag01",
+    "password": "c6DaEWwG/C1hELb3UejHfihgK0U=",
+    "publish_topic": "device-server",
+    "subscribe_topic": "devices/7a_0f_87_db_fd_47"
+  },
+  "USE_WAKE_WORD": false,
+  "WAKE_WORDS": [
+    "你好",
+    "你好啊"
+  ],
+  "WAKE_WORD_MODEL_PATH": "models/vosk-model-small-cn-0.22"
+}

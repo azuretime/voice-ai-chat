@@ -1,0 +1,103 @@
+2025-03-31 16:42:01,944[root] - INFO - 日志系统已初始化，日志文件: /Users/jiangjinjing/Documents/workspace/dog/py-xiaozhi/src/utils/../../logs/app.log - MainThread
+2025-03-31 16:42:01,946[Main] - INFO - 应用程序已启动，按Ctrl+C退出 - MainThread
+2025-03-31 16:42:01,946[Application] - INFO - 主循环已启动 - Thread-1 (_main_loop)
+2025-03-31 16:42:02,152[Application] - INFO - 开发环境下使用模型路径: /Users/jiangjinjing/Documents/workspace/dog/py-xiaozhi/models/vosk-model-small-cn-0.22 - MainThread
+2025-03-31 16:42:02,152[WakeWordDetector] - INFO - 正在加载语音识别模型: /Users/jiangjinjing/Documents/workspace/dog/py-xiaozhi/models/vosk-model-small-cn-0.22 - MainThread
+2025-03-31 16:42:02,377[WakeWordDetector] - INFO - 模型加载完成 - MainThread
+2025-03-31 16:42:02,378[WakeWordDetector] - INFO - 已配置 2 个唤醒词 - MainThread
+2025-03-31 16:42:02,378[Application] - INFO - 唤醒词检测器初始化成功 - MainThread
+2025-03-31 16:42:02,378[Application] - WARNING - 音频编解码器尚未初始化，唤醒词检测器将使用独立音频流 - MainThread
+2025-03-31 16:42:03,718[WakeWordDetector] - INFO - 唤醒词检测器使用内部音频流 - MainThread
+2025-03-31 16:42:03,719[WakeWordDetector] - INFO - 唤醒词检测循环已启动 - Thread-2 (_detection_loop)
+2025-03-31 16:42:03,719[WakeWordDetector] - INFO - 唤醒词检测已启动 - MainThread
+2025-03-31 16:42:03,824[Application] - INFO - 正在初始化应用程序... - Thread-3 (_run_event_loop)
+2025-03-31 16:42:04,255[AudioCodec] - INFO - 使用默认设备: MacBook Pro Microphone (Index: 0) - Thread-3 (_run_event_loop)
+2025-03-31 16:42:04,255[AudioCodec] - INFO - 使用默认设备: MacBook Pro Speakers (Index: 1) - Thread-3 (_run_event_loop)
+2025-03-31 16:42:05,033[AudioCodec] - INFO - 音频设备和编解码器初始化成功 - Thread-3 (_run_event_loop)
+2025-03-31 16:42:05,034[Application] - INFO - 音频编解码器初始化成功 - Thread-3 (_run_event_loop)
+2025-03-31 16:42:05,034[Application] - INFO - 系统音量控制未启用，将使用模拟音量控制 - Thread-3 (_run_event_loop)
+2025-03-31 16:42:05,034[Application] - INFO - 应用程序初始化完成 - Thread-3 (_run_event_loop)
+2025-03-31 16:42:08,740[MusicPlayer] - INFO - 音乐播放器初始化完成 - MainThread
+2025-03-31 16:42:08,938[Application] - INFO - 物联网设备初始化完成 - MainThread
+2025-03-31 16:42:09,599[GuiDisplay] - INFO - 音量控制器初始化成功，当前音量: 44% - MainThread
+2025-03-31 16:42:10,248[Display] - INFO - 键盘监听器初始化成功 - MainThread
+2025-03-31 16:42:10,249[Display] - INFO - 开始启动GUI主循环 - MainThread
+2025-03-31 16:43:04,097[root] - INFO - 日志系统已初始化，日志文件: /Users/jiangjinjing/Documents/workspace/dog/py-xiaozhi/src/utils/../../logs/app.log - MainThread
+2025-03-31 16:43:04,098[Main] - INFO - 应用程序已启动，按Ctrl+C退出 - MainThread
+2025-03-31 16:43:04,098[Application] - INFO - 主循环已启动 - Thread-1 (_main_loop)
+2025-03-31 16:43:04,190[Application] - INFO - 开发环境下使用模型路径: /Users/jiangjinjing/Documents/workspace/dog/py-xiaozhi/models/vosk-model-small-cn-0.22 - MainThread
+2025-03-31 16:43:04,190[WakeWordDetector] - INFO - 正在加载语音识别模型: /Users/jiangjinjing/Documents/workspace/dog/py-xiaozhi/models/vosk-model-small-cn-0.22 - MainThread
+2025-03-31 16:43:04,380[WakeWordDetector] - INFO - 模型加载完成 - MainThread
+2025-03-31 16:43:04,381[WakeWordDetector] - INFO - 已配置 2 个唤醒词 - MainThread
+2025-03-31 16:43:04,381[Application] - INFO - 唤醒词检测器初始化成功 - MainThread
+2025-03-31 16:43:04,381[Application] - WARNING - 音频编解码器尚未初始化，唤醒词检测器将使用独立音频流 - MainThread
+2025-03-31 16:43:04,457[WakeWordDetector] - INFO - 唤醒词检测器使用内部音频流 - MainThread
+2025-03-31 16:43:04,458[WakeWordDetector] - INFO - 唤醒词检测循环已启动 - Thread-2 (_detection_loop)
+2025-03-31 16:43:04,458[WakeWordDetector] - INFO - 唤醒词检测已启动 - MainThread
+2025-03-31 16:43:04,562[Application] - INFO - 正在初始化应用程序... - Thread-3 (_run_event_loop)
+2025-03-31 16:43:04,655[AudioCodec] - INFO - 使用默认设备: MacBook Pro Microphone (Index: 0) - Thread-3 (_run_event_loop)
+2025-03-31 16:43:04,656[AudioCodec] - INFO - 使用默认设备: MacBook Pro Speakers (Index: 1) - Thread-3 (_run_event_loop)
+2025-03-31 16:43:04,765[AudioCodec] - INFO - 音频设备和编解码器初始化成功 - Thread-3 (_run_event_loop)
+2025-03-31 16:43:04,765[Application] - INFO - 音频编解码器初始化成功 - Thread-3 (_run_event_loop)
+2025-03-31 16:43:04,765[Application] - INFO - 系统音量控制未启用，将使用模拟音量控制 - Thread-3 (_run_event_loop)
+2025-03-31 16:43:04,765[Application] - INFO - 应用程序初始化完成 - Thread-3 (_run_event_loop)
+2025-03-31 16:43:05,080[MusicPlayer] - INFO - 音乐播放器初始化完成 - MainThread
+2025-03-31 16:43:05,103[Application] - INFO - 物联网设备初始化完成 - MainThread
+2025-03-31 16:43:05,328[CliDisplay] - INFO - 音量控制器初始化成功，当前音量: 44% - MainThread
+2025-03-31 16:43:05,329[CliDisplay] - INFO - 键盘监听器初始化成功 - MainThread
+2025-03-31 16:43:09,015[WakeWordDetector] - INFO - 实时检测到唤醒词: '你好' (部分文本: 嗨 你好) - Thread-2 (_detection_loop)
+2025-03-31 16:43:09,015[Application] - INFO - 检测到唤醒词: 你好 (完整文本: 嗨 你好) - Thread-2 (_detection_loop)
+2025-03-31 16:43:09,019[WakeWordDetector] - INFO - 唤醒词检测已暂停 - Thread-1 (_main_loop)
+2025-03-31 16:43:09,337[Application] - INFO - 音频通道已打开 - Thread-3 (_run_event_loop)
+2025-03-31 16:43:09,337[WebsocketProtocol] - INFO - 成功处理服务器 hello 消息 - Thread-3 (_run_event_loop)
+2025-03-31 16:43:09,337[WebsocketProtocol] - INFO - 已连接到WebSocket服务器 - Thread-3 (_run_event_loop)
+2025-03-31 16:43:09,338[Application] - INFO - 已启动输入事件触发线程 - Thread-1 (_main_loop)
+2025-03-31 16:43:09,338[Application] - INFO - 已启动输出事件触发线程 - Thread-1 (_main_loop)
+2025-03-31 16:43:09,338[Application] - INFO - 音频流已启动 - Thread-1 (_main_loop)
+2025-03-31 16:43:09,351[Application] - INFO - 音频通道已打开 - Thread-3 (_run_event_loop)
+2025-03-31 16:43:09,351[WebsocketProtocol] - INFO - 成功处理服务器 hello 消息 - Thread-3 (_run_event_loop)
+2025-03-31 16:43:09,351[Application] - INFO - 音频流已启动 - Thread-1 (_main_loop)
+2025-03-31 16:43:09,351[Application] - INFO - >> 你好 - Thread-3 (_run_event_loop)
+2025-03-31 16:43:09,363[AudioCodec] - INFO - 音频输入已暂停 - Thread-1 (_main_loop)
+2025-03-31 16:43:19,552[Application] - INFO - << 嗨啦，有啥子事这么紧张？ - Thread-3 (_run_event_loop)
+2025-03-31 16:43:22,196[Application] - INFO - << 直接说哈 - Thread-3 (_run_event_loop)
+2025-03-31 16:43:24,249[AudioCodec] - INFO - 音频输入已恢复 - Thread-9 (delayed_state_change)
+2025-03-31 16:43:26,712[Main] - INFO - 接收到中断信号，正在关闭... - MainThread
+2025-03-31 16:43:26,712[Application] - INFO - 正在关闭应用程序... - MainThread
+2025-03-31 16:43:26,712[AudioCodec] - INFO - 开始关闭音频编解码器... - MainThread
+2025-03-31 16:43:26,891[Main] - INFO - 接收到中断信号，正在关闭... - MainThread
+2025-03-31 16:43:26,891[Application] - INFO - 正在关闭应用程序... - MainThread
+2025-03-31 16:43:27,095[Application] - INFO - 应用程序已关闭 - MainThread
+2025-03-31 16:57:40,130[root] - INFO - 日志系统已初始化，日志文件: /Users/jiangjinjing/Documents/workspace/dog/py-xiaozhi/src/utils/../../logs/app.log - MainThread
+2025-03-31 16:57:40,131[Main] - INFO - 应用程序已启动，按Ctrl+C退出 - MainThread
+2025-03-31 16:57:40,131[Application] - INFO - 主循环已启动 - Thread-1 (_main_loop)
+2025-03-31 16:57:40,326[Application] - INFO - 开发环境下使用模型路径: /Users/jiangjinjing/Documents/workspace/dog/py-xiaozhi/models/vosk-model-small-cn-0.22 - MainThread
+2025-03-31 16:57:40,326[WakeWordDetector] - INFO - 正在加载语音识别模型: /Users/jiangjinjing/Documents/workspace/dog/py-xiaozhi/models/vosk-model-small-cn-0.22 - MainThread
+2025-03-31 16:57:40,593[WakeWordDetector] - INFO - 模型加载完成 - MainThread
+2025-03-31 16:57:40,593[WakeWordDetector] - INFO - 已配置 2 个唤醒词 - MainThread
+2025-03-31 16:57:40,593[Application] - INFO - 唤醒词检测器初始化成功 - MainThread
+2025-03-31 16:57:40,594[Application] - WARNING - 音频编解码器尚未初始化，唤醒词检测器将使用独立音频流 - MainThread
+2025-03-31 16:57:40,777[WakeWordDetector] - INFO - 唤醒词检测器使用内部音频流 - MainThread
+2025-03-31 16:57:40,777[WakeWordDetector] - INFO - 唤醒词检测循环已启动 - Thread-2 (_detection_loop)
+2025-03-31 16:57:40,777[WakeWordDetector] - INFO - 唤醒词检测已启动 - MainThread
+2025-03-31 16:57:40,882[Application] - INFO - 正在初始化应用程序... - Thread-3 (_run_event_loop)
+2025-03-31 16:57:41,418[AudioCodec] - INFO - 使用默认设备: MacBook Pro Microphone (Index: 0) - Thread-3 (_run_event_loop)
+2025-03-31 16:57:41,418[AudioCodec] - INFO - 使用默认设备: MacBook Pro Speakers (Index: 1) - Thread-3 (_run_event_loop)
+2025-03-31 16:57:42,154[AudioCodec] - INFO - 音频设备和编解码器初始化成功 - Thread-3 (_run_event_loop)
+2025-03-31 16:57:42,154[Application] - INFO - 音频编解码器初始化成功 - Thread-3 (_run_event_loop)
+2025-03-31 16:57:42,154[Application] - INFO - 系统音量控制未启用，将使用模拟音量控制 - Thread-3 (_run_event_loop)
+2025-03-31 16:57:42,154[Application] - INFO - 应用程序初始化完成 - Thread-3 (_run_event_loop)
+2025-03-31 16:57:46,197[MusicPlayer] - INFO - 音乐播放器初始化完成 - MainThread
+2025-03-31 16:57:46,403[Application] - INFO - 物联网设备初始化完成 - MainThread
+2025-03-31 16:57:46,954[CliDisplay] - INFO - 音量控制器初始化成功，当前音量: 100% - MainThread
+2025-03-31 16:57:46,955[CliDisplay] - INFO - 键盘监听器初始化成功 - MainThread
+2025-03-31 16:57:50,624[WakeWordDetector] - INFO - 实时检测到唤醒词: '你好' (部分文本: 你好) - Thread-2 (_detection_loop)
+2025-03-31 16:57:50,624[Application] - INFO - 检测到唤醒词: 你好 (完整文本: 你好) - Thread-2 (_detection_loop)
+2025-03-31 16:57:50,630[WakeWordDetector] - INFO - 唤醒词检测已暂停 - Thread-1 (_main_loop)
+2025-03-31 16:57:50,809[WebsocketProtocol] - ERROR - WebSocket连接失败: [Errno 61] Connect call failed ('192.168.10.136', 8000) - Thread-3 (_run_event_loop)
+2025-03-31 17:00:34,610[Main] - INFO - 接收到中断信号，正在关闭... - MainThread
+2025-03-31 17:00:34,611[Application] - INFO - 正在关闭应用程序... - MainThread
+2025-03-31 17:00:34,612[AudioCodec] - INFO - 开始关闭音频编解码器... - MainThread
+2025-03-31 17:00:34,790[Main] - INFO - 接收到中断信号，正在关闭... - MainThread
+2025-03-31 17:00:34,790[Application] - INFO - 正在关闭应用程序... - MainThread
+2025-03-31 17:00:35,025[Application] - INFO - 应用程序已关闭 - MainThread

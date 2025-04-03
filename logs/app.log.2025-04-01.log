@@ -1,0 +1,661 @@
+2025-04-01 20:52:44,806[root] - INFO - 日志系统已初始化，日志文件: /Users/jiangjinjing/Documents/workspace/dog/py-xiaozhi/src/utils/../../logs/app.log - MainThread
+2025-04-01 20:52:44,810[Main] - INFO - 应用程序已启动，按Ctrl+C退出 - MainThread
+2025-04-01 20:52:44,811[Application] - INFO - 主循环已启动 - Thread-1 (_main_loop)
+2025-04-01 20:52:45,109[Application] - INFO - 开发环境下使用模型路径: /Users/jiangjinjing/Documents/workspace/dog/py-xiaozhi/models/vosk-model-small-cn-0.22 - MainThread
+2025-04-01 20:52:45,109[WakeWordDetector] - INFO - 正在加载语音识别模型: /Users/jiangjinjing/Documents/workspace/dog/py-xiaozhi/models/vosk-model-small-cn-0.22 - MainThread
+2025-04-01 20:52:45,452[WakeWordDetector] - INFO - 模型加载完成 - MainThread
+2025-04-01 20:52:45,453[WakeWordDetector] - INFO - 已配置 2 个唤醒词 - MainThread
+2025-04-01 20:52:45,453[Application] - INFO - 唤醒词检测器初始化成功 - MainThread
+2025-04-01 20:52:45,453[Application] - WARNING - 音频编解码器尚未初始化，唤醒词检测器将使用独立音频流 - MainThread
+2025-04-01 20:52:45,554[WakeWordDetector] - INFO - 唤醒词检测器使用内部音频流 - MainThread
+2025-04-01 20:52:45,554[WakeWordDetector] - INFO - 唤醒词检测循环已启动 - Thread-2 (_detection_loop)
+2025-04-01 20:52:45,554[WakeWordDetector] - INFO - 唤醒词检测已启动 - MainThread
+2025-04-01 20:52:45,660[Application] - INFO - 正在初始化应用程序... - Thread-3 (_run_event_loop)
+2025-04-01 20:52:46,110[AudioCodec] - INFO - 使用默认设备: MacBook Pro Microphone (Index: 0) - Thread-3 (_run_event_loop)
+2025-04-01 20:52:46,111[AudioCodec] - INFO - 使用默认设备: MacBook Pro Speakers (Index: 1) - Thread-3 (_run_event_loop)
+2025-04-01 20:52:47,262[AudioCodec] - INFO - 音频设备和编解码器初始化成功 - Thread-3 (_run_event_loop)
+2025-04-01 20:52:47,262[Application] - INFO - 音频编解码器初始化成功 - Thread-3 (_run_event_loop)
+2025-04-01 20:52:47,262[Application] - INFO - 系统音量控制未启用，将使用模拟音量控制 - Thread-3 (_run_event_loop)
+2025-04-01 20:52:47,262[Application] - INFO - 应用程序初始化完成 - Thread-3 (_run_event_loop)
+2025-04-01 20:52:51,002[MusicPlayer] - INFO - 音乐播放器初始化完成 - MainThread
+2025-04-01 20:52:51,243[Application] - INFO - 物联网设备初始化完成 - MainThread
+2025-04-01 20:52:51,795[CliDisplay] - INFO - 音量控制器初始化成功，当前音量: 50% - MainThread
+2025-04-01 20:52:51,796[CliDisplay] - INFO - 键盘监听器初始化成功 - MainThread
+2025-04-01 20:54:01,074[WakeWordDetector] - INFO - 实时检测到唤醒词: '你好' (部分文本: 你好) - Thread-2 (_detection_loop)
+2025-04-01 20:54:01,074[Application] - INFO - 检测到唤醒词: 你好 (完整文本: 你好) - Thread-2 (_detection_loop)
+2025-04-01 20:54:01,080[WakeWordDetector] - INFO - 唤醒词检测已暂停 - Thread-1 (_main_loop)
+2025-04-01 20:54:01,590[Application] - INFO - 音频通道已打开 - Thread-3 (_run_event_loop)
+2025-04-01 20:54:01,590[WebsocketProtocol] - INFO - 成功处理服务器 hello 消息 - Thread-3 (_run_event_loop)
+2025-04-01 20:54:01,591[WebsocketProtocol] - INFO - 已连接到WebSocket服务器 - Thread-3 (_run_event_loop)
+2025-04-01 20:54:01,601[Application] - INFO - 已启动输入事件触发线程 - Thread-1 (_main_loop)
+2025-04-01 20:54:01,602[Application] - INFO - 已启动输出事件触发线程 - Thread-1 (_main_loop)
+2025-04-01 20:54:01,602[Application] - INFO - 音频流已启动 - Thread-1 (_main_loop)
+2025-04-01 20:54:01,659[Application] - INFO - >> 你好 - Thread-3 (_run_event_loop)
+2025-04-01 20:54:01,665[AudioCodec] - INFO - 音频输入已暂停 - Thread-1 (_main_loop)
+2025-04-01 20:54:02,019[Application] - INFO - << 你好！ - Thread-3 (_run_event_loop)
+2025-04-01 20:54:03,308[Application] - INFO - << 最近怎么样？ - Thread-3 (_run_event_loop)
+2025-04-01 20:54:05,424[AudioCodec] - INFO - 音频输入已恢复 - Thread-9 (delayed_state_change)
+2025-04-01 20:54:16,967[Application] - INFO - >> 啊，好累呀。 - Thread-3 (_run_event_loop)
+2025-04-01 20:54:16,971[AudioCodec] - INFO - 音频输入已暂停 - Thread-1 (_main_loop)
+2025-04-01 20:54:17,493[Application] - INFO - << 听到你累了，心里也跟着难受。 - Thread-3 (_run_event_loop)
+2025-04-01 20:54:20,974[Application] - INFO - << 发生了什么事情让你这么疲惫呢？ - Thread-3 (_run_event_loop)
+2025-04-01 20:54:23,953[Application] - INFO - << 要不要说出来让我听听？ - Thread-3 (_run_event_loop)
+2025-04-01 20:54:26,649[AudioCodec] - INFO - 音频输入已恢复 - Thread-10 (delayed_state_change)
+2025-04-01 20:54:36,573[Application] - INFO - >> 我觉得自己好像不重要，好像谁都不会真的在乎我。 - Thread-3 (_run_event_loop)
+2025-04-01 20:54:36,582[AudioCodec] - INFO - 音频输入已暂停 - Thread-1 (_main_loop)
+2025-04-01 20:54:36,949[Application] - INFO - << 听到你这么说，我真的很心疼。 - Thread-3 (_run_event_loop)
+2025-04-01 20:54:40,022[Application] - INFO - << 每个人都有自己的价值，你也是独一无二的。 - Thread-3 (_run_event_loop)
+2025-04-01 20:54:43,604[Application] - INFO - << 有时候，人们可能没有表达出对你的关心，但这并不代表他们不在乎。 - Thread-3 (_run_event_loop)
+2025-04-01 20:54:50,985[Application] - INFO - << 你愿意分享一下具体的情况吗？ - Thread-3 (_run_event_loop)
+2025-04-01 20:54:54,022[Application] - INFO - << 这样我也可以更好地理解和支持你。 - Thread-3 (_run_event_loop)
+2025-04-01 20:54:57,866[AudioCodec] - INFO - 音频输入已恢复 - Thread-11 (delayed_state_change)
+2025-04-01 20:55:08,394[Application] - INFO - >> 我我真的好难过。 - Thread-3 (_run_event_loop)
+2025-04-01 20:55:08,406[AudioCodec] - INFO - 音频输入已暂停 - Thread-1 (_main_loop)
+2025-04-01 20:55:08,792[Application] - INFO - << 看到你这样，我真的很担心你。 - Thread-3 (_run_event_loop)
+2025-04-01 20:55:11,577[Application] - INFO - << 难过的时候，不妨找一个安静的地方， - Thread-3 (_run_event_loop)
+2025-04-01 20:55:15,198[Application] - INFO - << 深呼吸几下，让自己慢慢平静下来。 - Thread-3 (_run_event_loop)
+2025-04-01 20:55:19,438[Application] - INFO - << 你也可以找一个亲近的人，比如家人或朋友，跟他们说说心里的感受。 - Thread-3 (_run_event_loop)
+2025-04-01 20:55:26,138[Application] - INFO - << 他们会愿意倾听你的，你并不孤单。 - Thread-3 (_run_event_loop)
+2025-04-01 20:55:29,619[Application] - INFO - << 如果愿意的话，也可以继续和我说说，我会一直在这里陪伴你。 - Thread-3 (_run_event_loop)
+2025-04-01 20:55:35,744[AudioCodec] - INFO - 音频输入已恢复 - Thread-12 (delayed_state_change)
+2025-04-01 20:56:41,174[AudioCodec] - INFO - 音频输入已暂停 - Thread-1 (_main_loop)
+2025-04-01 20:56:41,453[Application] - INFO - << 如果你现在不想说话，也没关系。 - Thread-3 (_run_event_loop)
+2025-04-01 20:56:44,927[Application] - INFO - << 记得，无论什么时候，我都在这里等你。 - Thread-3 (_run_event_loop)
+2025-04-01 20:56:48,909[Application] - INFO - << 希望你早点好起来，晚安哦。 - Thread-3 (_run_event_loop)
+2025-04-01 20:56:52,661[Application] - INFO - 音频通道已关闭 - Thread-3 (_run_event_loop)
+2025-04-01 20:56:52,662[AudioCodec] - INFO - 音频输入已恢复 - Thread-13 (delayed_state_change)
+2025-04-01 20:56:52,662[WakeWordDetector] - INFO - 唤醒词检测已恢复 - Thread-3 (_run_event_loop)
+2025-04-01 20:56:52,662[Application] - INFO - 唤醒词检测已恢复 - Thread-3 (_run_event_loop)
+2025-04-01 20:56:52,992[WakeWordDetector] - INFO - 实时检测到唤醒词: '你好' (部分文本: 你好) - Thread-2 (_detection_loop)
+2025-04-01 20:56:52,992[Application] - INFO - 检测到唤醒词: 你好 (完整文本: 你好) - Thread-2 (_detection_loop)
+2025-04-01 20:56:53,001[WakeWordDetector] - INFO - 唤醒词检测已暂停 - Thread-1 (_main_loop)
+2025-04-01 20:56:53,316[Application] - INFO - 音频通道已打开 - Thread-3 (_run_event_loop)
+2025-04-01 20:56:53,317[WebsocketProtocol] - INFO - 成功处理服务器 hello 消息 - Thread-3 (_run_event_loop)
+2025-04-01 20:56:53,317[WebsocketProtocol] - INFO - 已连接到WebSocket服务器 - Thread-3 (_run_event_loop)
+2025-04-01 20:56:53,325[Application] - INFO - 音频流已启动 - Thread-1 (_main_loop)
+2025-04-01 20:56:53,386[Application] - INFO - >> 你好 - Thread-3 (_run_event_loop)
+2025-04-01 20:56:53,397[AudioCodec] - INFO - 音频输入已暂停 - Thread-1 (_main_loop)
+2025-04-01 20:56:53,845[Application] - INFO - << 你好呀，有什么新鲜事儿吗？ - Thread-3 (_run_event_loop)
+2025-04-01 20:56:57,215[AudioCodec] - INFO - 音频输入已恢复 - Thread-14 (delayed_state_change)
+2025-04-01 20:56:59,977[Main] - INFO - 接收到中断信号，正在关闭... - MainThread
+2025-04-01 20:56:59,978[Application] - INFO - 正在关闭应用程序... - MainThread
+2025-04-01 20:56:59,978[AudioCodec] - INFO - 开始关闭音频编解码器... - MainThread
+2025-04-01 20:57:00,237[Main] - INFO - 接收到中断信号，正在关闭... - MainThread
+2025-04-01 20:57:00,237[Application] - INFO - 正在关闭应用程序... - MainThread
+2025-04-01 20:57:00,400[Application] - INFO - 应用程序已关闭 - MainThread
+2025-04-01 21:12:54,731[root] - INFO - 日志系统已初始化，日志文件: /Users/jiangjinjing/Documents/workspace/dog/py-xiaozhi/src/utils/../../logs/app.log - MainThread
+2025-04-01 21:12:54,732[Main] - INFO - 应用程序已启动，按Ctrl+C退出 - MainThread
+2025-04-01 21:12:54,733[Application] - INFO - 主循环已启动 - Thread-1 (_main_loop)
+2025-04-01 21:12:54,949[Application] - INFO - 开发环境下使用模型路径: /Users/jiangjinjing/Documents/workspace/dog/py-xiaozhi/models/vosk-model-small-cn-0.22 - MainThread
+2025-04-01 21:12:54,949[WakeWordDetector] - INFO - 正在加载语音识别模型: /Users/jiangjinjing/Documents/workspace/dog/py-xiaozhi/models/vosk-model-small-cn-0.22 - MainThread
+2025-04-01 21:12:55,308[WakeWordDetector] - INFO - 模型加载完成 - MainThread
+2025-04-01 21:12:55,308[WakeWordDetector] - INFO - 已配置 2 个唤醒词 - MainThread
+2025-04-01 21:12:55,308[Application] - INFO - 唤醒词检测器初始化成功 - MainThread
+2025-04-01 21:12:55,308[Application] - WARNING - 音频编解码器尚未初始化，唤醒词检测器将使用独立音频流 - MainThread
+2025-04-01 21:12:55,405[WakeWordDetector] - INFO - 唤醒词检测器使用内部音频流 - MainThread
+2025-04-01 21:12:55,405[WakeWordDetector] - INFO - 唤醒词检测循环已启动 - Thread-2 (_detection_loop)
+2025-04-01 21:12:55,405[WakeWordDetector] - INFO - 唤醒词检测已启动 - MainThread
+2025-04-01 21:12:55,510[Application] - INFO - 正在初始化应用程序... - Thread-3 (_run_event_loop)
+2025-04-01 21:12:55,933[AudioCodec] - INFO - 使用默认设备: MacBook Pro Microphone (Index: 0) - Thread-3 (_run_event_loop)
+2025-04-01 21:12:55,933[AudioCodec] - INFO - 使用默认设备: MacBook Pro Speakers (Index: 1) - Thread-3 (_run_event_loop)
+2025-04-01 21:12:56,659[AudioCodec] - INFO - 音频设备和编解码器初始化成功 - Thread-3 (_run_event_loop)
+2025-04-01 21:12:56,659[Application] - INFO - 音频编解码器初始化成功 - Thread-3 (_run_event_loop)
+2025-04-01 21:12:56,659[Application] - INFO - 系统音量控制未启用，将使用模拟音量控制 - Thread-3 (_run_event_loop)
+2025-04-01 21:12:56,659[Application] - INFO - 应用程序初始化完成 - Thread-3 (_run_event_loop)
+2025-04-01 21:13:00,578[MusicPlayer] - INFO - 音乐播放器初始化完成 - MainThread
+2025-04-01 21:13:00,868[Application] - INFO - 物联网设备初始化完成 - MainThread
+2025-04-01 21:13:01,430[CliDisplay] - INFO - 音量控制器初始化成功，当前音量: 19% - MainThread
+2025-04-01 21:13:01,431[CliDisplay] - INFO - 键盘监听器初始化成功 - MainThread
+2025-04-01 21:13:12,224[WakeWordDetector] - INFO - 实时检测到唤醒词: '你好' (部分文本: 你好) - Thread-2 (_detection_loop)
+2025-04-01 21:13:12,224[Application] - INFO - 检测到唤醒词: 你好 (完整文本: 你好) - Thread-2 (_detection_loop)
+2025-04-01 21:13:12,235[WakeWordDetector] - INFO - 唤醒词检测已暂停 - Thread-1 (_main_loop)
+2025-04-01 21:13:12,764[Application] - INFO - 音频通道已打开 - Thread-3 (_run_event_loop)
+2025-04-01 21:13:12,764[WebsocketProtocol] - INFO - 成功处理服务器 hello 消息 - Thread-3 (_run_event_loop)
+2025-04-01 21:13:12,765[WebsocketProtocol] - INFO - 已连接到WebSocket服务器 - Thread-3 (_run_event_loop)
+2025-04-01 21:13:12,767[Application] - INFO - 已启动输入事件触发线程 - Thread-1 (_main_loop)
+2025-04-01 21:13:12,768[Application] - INFO - 已启动输出事件触发线程 - Thread-1 (_main_loop)
+2025-04-01 21:13:12,768[Application] - INFO - 音频流已启动 - Thread-1 (_main_loop)
+2025-04-01 21:13:12,838[Application] - INFO - >> 你好 - Thread-3 (_run_event_loop)
+2025-04-01 21:13:12,845[AudioCodec] - INFO - 音频输入已暂停 - Thread-1 (_main_loop)
+2025-04-01 21:13:13,493[Application] - INFO - << 你好呀，怎么找到我这里来了？ - Thread-3 (_run_event_loop)
+2025-04-01 21:13:17,574[AudioCodec] - INFO - 音频输入已恢复 - Thread-9 (delayed_state_change)
+2025-04-01 21:13:21,068[Application] - INFO - >> 我们不是一直在一起吗？ - Thread-3 (_run_event_loop)
+2025-04-01 21:13:21,078[AudioCodec] - INFO - 音频输入已暂停 - Thread-1 (_main_loop)
+2025-04-01 21:13:21,490[Application] - INFO - << 哈哈，你这是在逗我吧，不过能见到你我也很开心！ - Thread-3 (_run_event_loop)
+2025-04-01 21:13:27,544[Application] - INFO - << 最近咋样？ - Thread-3 (_run_event_loop)
+2025-04-01 21:13:29,584[AudioCodec] - INFO - 音频输入已恢复 - Thread-10 (delayed_state_change)
+2025-04-01 21:13:32,796[Application] - INFO - >> 我最近觉得好累呀。 - Thread-3 (_run_event_loop)
+2025-04-01 21:13:32,798[AudioCodec] - INFO - 音频输入已暂停 - Thread-1 (_main_loop)
+2025-04-01 21:13:33,299[Application] - INFO - << 听你这么说我也挺心疼的，发生了什么事情让你觉得这么累呢？ - Thread-3 (_run_event_loop)
+2025-04-01 21:13:40,385[Application] - INFO - << 要是有什么烦心事，说出来会好受一些哦。 - Thread-3 (_run_event_loop)
+2025-04-01 21:13:45,613[AudioCodec] - INFO - 音频输入已恢复 - Thread-11 (delayed_state_change)
+2025-04-01 21:13:49,652[Application] - INFO - >> 哎。 - Thread-3 (_run_event_loop)
+2025-04-01 21:13:49,663[AudioCodec] - INFO - 音频输入已暂停 - Thread-1 (_main_loop)
+2025-04-01 21:13:50,093[Application] - INFO - << 有时候生活就是这样，会有很多不如意的事情。 - Thread-3 (_run_event_loop)
+2025-04-01 21:13:55,215[Application] - INFO - << 不过，你可以试着找找让自己放松的方法， - Thread-3 (_run_event_loop)
+2025-04-01 21:13:59,296[Application] - INFO - << 比如听听音乐、做做运动，或者找朋友聊聊天。 - Thread-3 (_run_event_loop)
+2025-04-01 21:14:04,622[Application] - INFO - << 有时候换个心情，事情也会变得好起来。 - Thread-3 (_run_event_loop)
+2025-04-01 21:14:09,335[Application] - INFO - << 要不，我给你放首歌放松一下？ - Thread-3 (_run_event_loop)
+2025-04-01 21:14:13,215[AudioCodec] - INFO - 音频输入已恢复 - Thread-12 (delayed_state_change)
+2025-04-01 21:14:18,135[Application] - INFO - >> 你能放什么歌呢？ - Thread-3 (_run_event_loop)
+2025-04-01 21:14:18,139[AudioCodec] - INFO - 音频输入已暂停 - Thread-1 (_main_loop)
+2025-04-01 21:14:20,308[Application] - INFO - << 那我就放这首《好天气》给你听吧，希望它能带给你一点好心情。 - Thread-3 (_run_event_loop)
+2025-04-01 21:14:26,508[Application] - INFO - << 《好天气》 - Thread-3 (_run_event_loop)
+2025-04-01 21:14:26,510[Application] - INFO - << 作词 : FatdogBoom - Thread-3 (_run_event_loop)
+2025-04-01 21:14:27,527[Application] - INFO - << 作曲 : FatdogBoom - Thread-3 (_run_event_loop)
+2025-04-01 21:14:28,548[Application] - INFO - << 编曲 : FatdogBoom - Thread-3 (_run_event_loop)
+2025-04-01 21:14:35,512[Application] - INFO - << 今天是个好天气 外面刮风又下雨 - Thread-3 (_run_event_loop)
+2025-04-01 21:14:40,489[Application] - INFO - << 我在学着卓别林 为你撑伞你发脾气 - Thread-3 (_run_event_loop)
+2025-04-01 21:14:45,469[Application] - INFO - << 可是只要看见你 我的手里就没武器 - Thread-3 (_run_event_loop)
+2025-04-01 21:14:50,543[Application] - INFO - << 你要去哪里 我 我 我就去哪里 - Thread-3 (_run_event_loop)
+2025-04-01 21:14:55,488[Application] - INFO - << 每天都是你 梦里都会见到你 - Thread-3 (_run_event_loop)
+2025-04-01 21:15:00,469[Application] - INFO - << 有你就是好天气 不管刮风又下雨 - Thread-3 (_run_event_loop)
+2025-04-01 21:15:10,917[Main] - INFO - 接收到中断信号，正在关闭... - MainThread
+2025-04-01 21:15:10,919[Application] - INFO - 正在关闭应用程序... - MainThread
+2025-04-01 21:15:10,919[AudioCodec] - INFO - 开始关闭音频编解码器... - MainThread
+2025-04-01 21:15:11,092[Main] - INFO - 接收到中断信号，正在关闭... - MainThread
+2025-04-01 21:15:11,092[Application] - INFO - 正在关闭应用程序... - MainThread
+2025-04-01 21:15:11,272[Application] - INFO - 应用程序已关闭 - MainThread
+2025-04-01 21:20:20,637[root] - INFO - 日志系统已初始化，日志文件: /Users/jiangjinjing/Documents/workspace/dog/py-xiaozhi/src/utils/../../logs/app.log - MainThread
+2025-04-01 21:20:20,638[Main] - INFO - 应用程序已启动，按Ctrl+C退出 - MainThread
+2025-04-01 21:20:20,638[Application] - INFO - 主循环已启动 - Thread-1 (_main_loop)
+2025-04-01 21:20:20,726[Application] - INFO - 开发环境下使用模型路径: /Users/jiangjinjing/Documents/workspace/dog/py-xiaozhi/models/vosk-model-small-cn-0.22 - MainThread
+2025-04-01 21:20:20,726[WakeWordDetector] - INFO - 正在加载语音识别模型: /Users/jiangjinjing/Documents/workspace/dog/py-xiaozhi/models/vosk-model-small-cn-0.22 - MainThread
+2025-04-01 21:20:20,921[WakeWordDetector] - INFO - 模型加载完成 - MainThread
+2025-04-01 21:20:20,922[WakeWordDetector] - INFO - 已配置 2 个唤醒词 - MainThread
+2025-04-01 21:20:20,922[Application] - INFO - 唤醒词检测器初始化成功 - MainThread
+2025-04-01 21:20:20,922[Application] - WARNING - 音频编解码器尚未初始化，唤醒词检测器将使用独立音频流 - MainThread
+2025-04-01 21:20:20,978[WakeWordDetector] - INFO - 唤醒词检测器使用内部音频流 - MainThread
+2025-04-01 21:20:20,979[WakeWordDetector] - INFO - 唤醒词检测循环已启动 - Thread-2 (_detection_loop)
+2025-04-01 21:20:20,979[WakeWordDetector] - INFO - 唤醒词检测已启动 - MainThread
+2025-04-01 21:20:21,084[Application] - INFO - 正在初始化应用程序... - Thread-3 (_run_event_loop)
+2025-04-01 21:20:21,183[AudioCodec] - INFO - 使用默认设备: MacBook Pro Microphone (Index: 0) - Thread-3 (_run_event_loop)
+2025-04-01 21:20:21,183[AudioCodec] - INFO - 使用默认设备: MacBook Pro Speakers (Index: 1) - Thread-3 (_run_event_loop)
+2025-04-01 21:20:21,358[AudioCodec] - INFO - 音频设备和编解码器初始化成功 - Thread-3 (_run_event_loop)
+2025-04-01 21:20:21,358[Application] - INFO - 音频编解码器初始化成功 - Thread-3 (_run_event_loop)
+2025-04-01 21:20:21,358[Application] - INFO - 系统音量控制未启用，将使用模拟音量控制 - Thread-3 (_run_event_loop)
+2025-04-01 21:20:21,358[Application] - INFO - 应用程序初始化完成 - Thread-3 (_run_event_loop)
+2025-04-01 21:20:21,696[MusicPlayer] - INFO - 音乐播放器初始化完成 - MainThread
+2025-04-01 21:20:21,720[Application] - INFO - 物联网设备初始化完成 - MainThread
+2025-04-01 21:20:21,958[CliDisplay] - INFO - 音量控制器初始化成功，当前音量: 44% - MainThread
+2025-04-01 21:20:21,959[CliDisplay] - INFO - 键盘监听器初始化成功 - MainThread
+2025-04-01 21:20:46,312[WakeWordDetector] - INFO - 实时检测到唤醒词: '你好' (部分文本: 你好) - Thread-2 (_detection_loop)
+2025-04-01 21:20:46,313[Application] - INFO - 检测到唤醒词: 你好 (完整文本: 你好) - Thread-2 (_detection_loop)
+2025-04-01 21:20:46,315[WakeWordDetector] - INFO - 唤醒词检测已暂停 - Thread-1 (_main_loop)
+2025-04-01 21:20:46,639[Application] - INFO - 音频通道已打开 - Thread-3 (_run_event_loop)
+2025-04-01 21:20:46,641[WebsocketProtocol] - INFO - 成功处理服务器 hello 消息 - Thread-3 (_run_event_loop)
+2025-04-01 21:20:46,641[WebsocketProtocol] - INFO - 已连接到WebSocket服务器 - Thread-3 (_run_event_loop)
+2025-04-01 21:20:46,642[Application] - INFO - 已启动输入事件触发线程 - Thread-1 (_main_loop)
+2025-04-01 21:20:46,643[Application] - INFO - 已启动输出事件触发线程 - Thread-1 (_main_loop)
+2025-04-01 21:20:46,643[Application] - INFO - 音频流已启动 - Thread-1 (_main_loop)
+2025-04-01 21:20:46,715[Application] - INFO - >> 你好 - Thread-3 (_run_event_loop)
+2025-04-01 21:20:46,718[AudioCodec] - INFO - 音频输入已暂停 - Thread-1 (_main_loop)
+2025-04-01 21:20:47,199[Application] - INFO - << 你好！ - Thread-3 (_run_event_loop)
+2025-04-01 21:20:48,377[Application] - INFO - << 有什么好玩的事吗？ - Thread-3 (_run_event_loop)
+2025-04-01 21:20:50,991[AudioCodec] - INFO - 音频输入已恢复 - Thread-9 (delayed_state_change)
+2025-04-01 21:20:58,148[Application] - INFO - >> 嗯，其实也没有。 - Thread-3 (_run_event_loop)
+2025-04-01 21:20:58,150[AudioCodec] - INFO - 音频输入已暂停 - Thread-1 (_main_loop)
+2025-04-01 21:20:59,053[Application] - INFO - << 那最近有什么事情让你觉得有点烦呢？ - Thread-3 (_run_event_loop)
+2025-04-01 21:21:02,663[Application] - INFO - << 或者有什么新发现？ - Thread-3 (_run_event_loop)
+2025-04-01 21:21:05,193[AudioCodec] - INFO - 音频输入已恢复 - Thread-10 (delayed_state_change)
+2025-04-01 21:21:10,869[Application] - INFO - >> 我感觉好焦虑啊。 - Thread-3 (_run_event_loop)
+2025-04-01 21:21:10,875[AudioCodec] - INFO - 音频输入已暂停 - Thread-1 (_main_loop)
+2025-04-01 21:21:11,180[Application] - INFO - << 听到你感到焦虑，我很难过。 - Thread-3 (_run_event_loop)
+2025-04-01 21:21:14,375[Application] - INFO - << 可以告诉我是什么让你感到焦虑吗？ - Thread-3 (_run_event_loop)
+2025-04-01 21:21:17,293[Application] - INFO - << 我们可以一起聊聊，看看有没有什么方法能帮助你。 - Thread-3 (_run_event_loop)
+2025-04-01 21:21:22,422[AudioCodec] - INFO - 音频输入已恢复 - Thread-11 (delayed_state_change)
+2025-04-01 21:21:27,566[Application] - INFO - >> 工作上的事。 - Thread-3 (_run_event_loop)
+2025-04-01 21:21:27,570[AudioCodec] - INFO - 音频输入已暂停 - Thread-1 (_main_loop)
+2025-04-01 21:21:28,795[Application] - INFO - << 工作上的事情确实会让人压力山大。 - Thread-3 (_run_event_loop)
+2025-04-01 21:21:32,308[Application] - INFO - << 具体是哪些方面让你感到焦虑呢？ - Thread-3 (_run_event_loop)
+2025-04-01 21:21:35,448[Application] - INFO - << 是任务太多、时间不够，还是和同事、上司的关系？ - Thread-3 (_run_event_loop)
+2025-04-01 21:21:40,528[Application] - INFO - << 我们可以一起分析一下。 - Thread-3 (_run_event_loop)
+2025-04-01 21:21:43,247[AudioCodec] - INFO - 音频输入已恢复 - Thread-12 (delayed_state_change)
+2025-04-01 21:21:51,519[Application] - INFO - >> 我有个很难的项目，怕自己做不好。 - Thread-3 (_run_event_loop)
+2025-04-01 21:21:51,523[AudioCodec] - INFO - 音频输入已暂停 - Thread-1 (_main_loop)
+2025-04-01 21:21:51,867[Application] - INFO - << 听到这个我理解你的担心。 - Thread-3 (_run_event_loop)
+2025-04-01 21:21:54,683[Application] - INFO - << 面对难项目，确实会感到压力很大。 - Thread-3 (_run_event_loop)
+2025-04-01 21:21:58,341[Application] - INFO - << 不过，你已经做得很好了，不是吗？ - Thread-3 (_run_event_loop)
+2025-04-01 21:22:01,881[Application] - INFO - << 你可以先列出项目的具体难点，然后一个一个地去解决。 - Thread-3 (_run_event_loop)
+2025-04-01 21:22:06,781[Application] - INFO - << 有需要的话，也可以寻求同事或上司的帮助。 - Thread-3 (_run_event_loop)
+2025-04-01 21:22:10,922[Application] - INFO - << 有时候，团队合作能让你事半功倍。 - Thread-3 (_run_event_loop)
+2025-04-01 21:22:14,761[Application] - INFO - << 你觉得这样可以吗？ - Thread-3 (_run_event_loop)
+2025-04-01 21:22:16,723[Application] - INFO - << 或者你有什么其他的想法？ - Thread-3 (_run_event_loop)
+2025-04-01 21:22:18,639[Main] - INFO - 接收到中断信号，正在关闭... - MainThread
+2025-04-01 21:22:18,639[Application] - INFO - 正在关闭应用程序... - MainThread
+2025-04-01 21:22:18,639[AudioCodec] - INFO - 开始关闭音频编解码器... - MainThread
+2025-04-01 21:22:18,929[Main] - INFO - 接收到中断信号，正在关闭... - MainThread
+2025-04-01 21:22:18,930[Application] - INFO - 正在关闭应用程序... - MainThread
+2025-04-01 21:22:19,088[Application] - INFO - 应用程序已关闭 - MainThread
+2025-04-01 21:23:37,606[root] - INFO - 日志系统已初始化，日志文件: /Users/jiangjinjing/Documents/workspace/dog/py-xiaozhi/src/utils/../../logs/app.log - MainThread
+2025-04-01 21:23:37,607[Main] - INFO - 应用程序已启动，按Ctrl+C退出 - MainThread
+2025-04-01 21:23:37,608[Application] - INFO - 主循环已启动 - Thread-1 (_main_loop)
+2025-04-01 21:23:37,966[Application] - INFO - 开发环境下使用模型路径: /Users/jiangjinjing/Documents/workspace/dog/py-xiaozhi/models/vosk-model-small-cn-0.22 - MainThread
+2025-04-01 21:23:37,967[WakeWordDetector] - INFO - 正在加载语音识别模型: /Users/jiangjinjing/Documents/workspace/dog/py-xiaozhi/models/vosk-model-small-cn-0.22 - MainThread
+2025-04-01 21:23:38,230[WakeWordDetector] - INFO - 模型加载完成 - MainThread
+2025-04-01 21:23:38,230[WakeWordDetector] - INFO - 已配置 2 个唤醒词 - MainThread
+2025-04-01 21:23:38,230[Application] - INFO - 唤醒词检测器初始化成功 - MainThread
+2025-04-01 21:23:38,230[Application] - WARNING - 音频编解码器尚未初始化，唤醒词检测器将使用独立音频流 - MainThread
+2025-04-01 21:23:38,324[WakeWordDetector] - INFO - 唤醒词检测器使用内部音频流 - MainThread
+2025-04-01 21:23:38,324[WakeWordDetector] - INFO - 唤醒词检测循环已启动 - Thread-2 (_detection_loop)
+2025-04-01 21:23:38,325[WakeWordDetector] - INFO - 唤醒词检测已启动 - MainThread
+2025-04-01 21:23:38,430[Application] - INFO - 正在初始化应用程序... - Thread-3 (_run_event_loop)
+2025-04-01 21:23:38,858[AudioCodec] - INFO - 使用默认设备: MacBook Pro Microphone (Index: 0) - Thread-3 (_run_event_loop)
+2025-04-01 21:23:38,858[AudioCodec] - INFO - 使用默认设备: MacBook Pro Speakers (Index: 1) - Thread-3 (_run_event_loop)
+2025-04-01 21:23:39,590[AudioCodec] - INFO - 音频设备和编解码器初始化成功 - Thread-3 (_run_event_loop)
+2025-04-01 21:23:39,590[Application] - INFO - 音频编解码器初始化成功 - Thread-3 (_run_event_loop)
+2025-04-01 21:23:39,590[Application] - INFO - 系统音量控制未启用，将使用模拟音量控制 - Thread-3 (_run_event_loop)
+2025-04-01 21:23:39,590[Application] - INFO - 应用程序初始化完成 - Thread-3 (_run_event_loop)
+2025-04-01 21:23:43,880[MusicPlayer] - INFO - 音乐播放器初始化完成 - MainThread
+2025-04-01 21:23:44,165[Application] - INFO - 物联网设备初始化完成 - MainThread
+2025-04-01 21:23:44,478[CliDisplay] - INFO - 音量控制器初始化成功，当前音量: 25% - MainThread
+2025-04-01 21:23:44,479[CliDisplay] - INFO - 键盘监听器初始化成功 - MainThread
+2025-04-01 21:23:49,250[WakeWordDetector] - INFO - 实时检测到唤醒词: '你好' (部分文本: 你好) - Thread-2 (_detection_loop)
+2025-04-01 21:23:49,250[Application] - INFO - 检测到唤醒词: 你好 (完整文本: 你好) - Thread-2 (_detection_loop)
+2025-04-01 21:23:49,257[WakeWordDetector] - INFO - 唤醒词检测已暂停 - Thread-1 (_main_loop)
+2025-04-01 21:23:49,760[Application] - INFO - 音频通道已打开 - Thread-3 (_run_event_loop)
+2025-04-01 21:23:49,761[WebsocketProtocol] - INFO - 成功处理服务器 hello 消息 - Thread-3 (_run_event_loop)
+2025-04-01 21:23:49,762[WebsocketProtocol] - INFO - 已连接到WebSocket服务器 - Thread-3 (_run_event_loop)
+2025-04-01 21:23:49,771[Application] - INFO - 已启动输入事件触发线程 - Thread-1 (_main_loop)
+2025-04-01 21:23:49,772[Application] - INFO - 已启动输出事件触发线程 - Thread-1 (_main_loop)
+2025-04-01 21:23:49,772[Application] - INFO - 音频流已启动 - Thread-1 (_main_loop)
+2025-04-01 21:23:49,833[Application] - INFO - >> 你好 - Thread-3 (_run_event_loop)
+2025-04-01 21:23:49,837[AudioCodec] - INFO - 音频输入已暂停 - Thread-1 (_main_loop)
+2025-04-01 21:23:50,385[Application] - INFO - << 你好，有什么好玩的事吗？ - Thread-3 (_run_event_loop)
+2025-04-01 21:23:53,600[AudioCodec] - INFO - 音频输入已恢复 - Thread-9 (delayed_state_change)
+2025-04-01 21:23:57,402[Application] - INFO - >> 没有好玩的事就不能找你了吗？ - Thread-3 (_run_event_loop)
+2025-04-01 21:23:57,404[AudioCodec] - INFO - 音频输入已暂停 - Thread-1 (_main_loop)
+2025-04-01 21:23:58,691[Application] - INFO - << 当然不是，随时欢迎找我聊天。 - Thread-3 (_run_event_loop)
+2025-04-01 21:24:02,401[Application] - INFO - << 最近怎么样？ - Thread-3 (_run_event_loop)
+2025-04-01 21:24:04,405[AudioCodec] - INFO - 音频输入已恢复 - Thread-10 (delayed_state_change)
+2025-04-01 21:24:08,166[Application] - INFO - >> 蛮好的蛮好的。 - Thread-3 (_run_event_loop)
+2025-04-01 21:24:08,171[AudioCodec] - INFO - 音频输入已暂停 - Thread-1 (_main_loop)
+2025-04-01 21:24:08,597[Application] - INFO - << 那就好，听你语气感觉挺轻松的。 - Thread-3 (_run_event_loop)
+2025-04-01 21:24:12,863[Application] - INFO - << 有空陪我聊会儿天吧。 - Thread-3 (_run_event_loop)
+2025-04-01 21:24:15,553[AudioCodec] - INFO - 音频输入已恢复 - Thread-11 (delayed_state_change)
+2025-04-01 21:24:23,855[Application] - INFO - >> 好呀好呀。 - Thread-3 (_run_event_loop)
+2025-04-01 21:24:23,867[AudioCodec] - INFO - 音频输入已暂停 - Thread-1 (_main_loop)
+2025-04-01 21:24:24,292[Application] - INFO - << 太好了，最近有没有遇到什么让你开心的事？ - Thread-3 (_run_event_loop)
+2025-04-01 21:24:29,242[AudioCodec] - INFO - 音频输入已恢复 - Thread-12 (delayed_state_change)
+2025-04-01 21:24:33,056[Application] - INFO - >> 嗯。 - Thread-3 (_run_event_loop)
+2025-04-01 21:24:33,058[AudioCodec] - INFO - 音频输入已暂停 - Thread-1 (_main_loop)
+2025-04-01 21:24:33,597[Application] - INFO - << 嗯，能感受到你的心情。 - Thread-3 (_run_event_loop)
+2025-04-01 21:24:36,123[Application] - INFO - << 有时候，简单的小事也能带来快乐，对吧？ - Thread-3 (_run_event_loop)
+2025-04-01 21:24:40,684[Application] - INFO - << 比如吃到喜欢的食物，或者看到美丽的风景。 - Thread-3 (_run_event_loop)
+2025-04-01 21:24:45,223[Application] - INFO - << 你最近有没有这样的心情？ - Thread-3 (_run_event_loop)
+2025-04-01 21:24:48,128[AudioCodec] - INFO - 音频输入已恢复 - Thread-13 (delayed_state_change)
+2025-04-01 21:24:51,658[Application] - INFO - >> 刚刚在路上撞到了一个大明星。 - Thread-3 (_run_event_loop)
+2025-04-01 21:24:51,664[AudioCodec] - INFO - 音频输入已暂停 - Thread-1 (_main_loop)
+2025-04-01 21:24:51,971[Application] - INFO - << 哇，真的假的！ - Thread-3 (_run_event_loop)
+2025-04-01 21:24:54,503[Application] - INFO - << 是哪位大明星啊？ - Thread-3 (_run_event_loop)
+2025-04-01 21:24:56,459[Application] - INFO - << 有没有合个影？ - Thread-3 (_run_event_loop)
+2025-04-01 21:24:58,675[AudioCodec] - INFO - 音频输入已恢复 - Thread-14 (delayed_state_change)
+2025-04-01 21:25:01,060[Application] - INFO - >> 没有。 - Thread-3 (_run_event_loop)
+2025-04-01 21:25:01,064[AudioCodec] - INFO - 音频输入已暂停 - Thread-1 (_main_loop)
+2025-04-01 21:25:01,847[Application] - INFO - << 好吧，不过能遇到大明星也够幸运的了。 - Thread-3 (_run_event_loop)
+2025-04-01 21:25:09,136[Application] - INFO - << 下次记得带上手机，说不定还能拍到照片呢。 - Thread-3 (_run_event_loop)
+2025-04-01 21:25:12,977[Application] - INFO - << 有没有和他说几句话？ - Thread-3 (_run_event_loop)
+2025-04-01 21:25:15,744[AudioCodec] - INFO - 音频输入已恢复 - Thread-15 (delayed_state_change)
+2025-04-01 21:25:18,889[Application] - INFO - >> 我说。 - Thread-3 (_run_event_loop)
+2025-04-01 21:25:18,893[AudioCodec] - INFO - 音频输入已暂停 - Thread-1 (_main_loop)
+2025-04-01 21:25:19,565[Application] - INFO - << 哈哈，你当时紧张得连手机都没拿出来吗？ - Thread-3 (_run_event_loop)
+2025-04-01 21:25:24,025[Application] - INFO - << 说些什么了？ - Thread-3 (_run_event_loop)
+2025-04-01 21:25:26,145[AudioCodec] - INFO - 音频输入已恢复 - Thread-16 (delayed_state_change)
+2025-04-01 21:25:31,362[Application] - INFO - >> 我说你的帽子废了。 - Thread-3 (_run_event_loop)
+2025-04-01 21:25:31,369[AudioCodec] - INFO - 音频输入已暂停 - Thread-1 (_main_loop)
+2025-04-01 21:25:31,771[Application] - INFO - << 哎呀，这句话有点直接啊。 - Thread-3 (_run_event_loop)
+2025-04-01 21:25:34,820[Application] - INFO - << 不过明星们应该见过大风大浪，应该不会介意的。 - Thread-3 (_run_event_loop)
+2025-04-01 21:25:39,462[Application] - INFO - << 他怎么回应的？ - Thread-3 (_run_event_loop)
+2025-04-01 21:25:41,745[AudioCodec] - INFO - 音频输入已恢复 - Thread-17 (delayed_state_change)
+2025-04-01 21:25:59,507[Application] - INFO - >> 你好，有什么好玩的事吗？ - Thread-3 (_run_event_loop)
+2025-04-01 21:25:59,512[AudioCodec] - INFO - 音频输入已暂停 - Thread-1 (_main_loop)
+2025-04-01 21:26:00,333[Application] - INFO - << 你好，有位朋友刚和我分享了遇到大明星的经历，挺有趣的。 - Thread-3 (_run_event_loop)
+2025-04-01 21:26:04,626[Main] - INFO - 接收到中断信号，正在关闭... - MainThread
+2025-04-01 21:26:04,626[Application] - INFO - 正在关闭应用程序... - MainThread
+2025-04-01 21:26:04,627[AudioCodec] - INFO - 开始关闭音频编解码器... - MainThread
+2025-04-01 21:26:04,899[Main] - INFO - 接收到中断信号，正在关闭... - MainThread
+2025-04-01 21:26:04,900[Application] - INFO - 正在关闭应用程序... - MainThread
+2025-04-01 21:26:05,098[Application] - INFO - 应用程序已关闭 - MainThread
+2025-04-01 21:26:56,437[root] - INFO - 日志系统已初始化，日志文件: /Users/jiangjinjing/Documents/workspace/dog/py-xiaozhi/src/utils/../../logs/app.log - MainThread
+2025-04-01 21:26:56,437[Main] - INFO - 应用程序已启动，按Ctrl+C退出 - MainThread
+2025-04-01 21:26:56,437[Application] - INFO - 主循环已启动 - Thread-1 (_main_loop)
+2025-04-01 21:26:56,518[Application] - INFO - 开发环境下使用模型路径: /Users/jiangjinjing/Documents/workspace/dog/py-xiaozhi/models/vosk-model-small-cn-0.22 - MainThread
+2025-04-01 21:26:56,519[WakeWordDetector] - INFO - 正在加载语音识别模型: /Users/jiangjinjing/Documents/workspace/dog/py-xiaozhi/models/vosk-model-small-cn-0.22 - MainThread
+2025-04-01 21:26:56,706[WakeWordDetector] - INFO - 模型加载完成 - MainThread
+2025-04-01 21:26:56,707[WakeWordDetector] - INFO - 已配置 2 个唤醒词 - MainThread
+2025-04-01 21:26:56,707[Application] - INFO - 唤醒词检测器初始化成功 - MainThread
+2025-04-01 21:26:56,707[Application] - WARNING - 音频编解码器尚未初始化，唤醒词检测器将使用独立音频流 - MainThread
+2025-04-01 21:26:56,764[WakeWordDetector] - INFO - 唤醒词检测器使用内部音频流 - MainThread
+2025-04-01 21:26:56,764[WakeWordDetector] - INFO - 唤醒词检测循环已启动 - Thread-2 (_detection_loop)
+2025-04-01 21:26:56,764[WakeWordDetector] - INFO - 唤醒词检测已启动 - MainThread
+2025-04-01 21:26:56,870[Application] - INFO - 正在初始化应用程序... - Thread-3 (_run_event_loop)
+2025-04-01 21:26:56,973[AudioCodec] - INFO - 使用默认设备: MacBook Pro Microphone (Index: 0) - Thread-3 (_run_event_loop)
+2025-04-01 21:26:56,973[AudioCodec] - INFO - 使用默认设备: MacBook Pro Speakers (Index: 1) - Thread-3 (_run_event_loop)
+2025-04-01 21:26:57,081[AudioCodec] - INFO - 音频设备和编解码器初始化成功 - Thread-3 (_run_event_loop)
+2025-04-01 21:26:57,081[Application] - INFO - 音频编解码器初始化成功 - Thread-3 (_run_event_loop)
+2025-04-01 21:26:57,081[Application] - INFO - 系统音量控制未启用，将使用模拟音量控制 - Thread-3 (_run_event_loop)
+2025-04-01 21:26:57,081[Application] - INFO - 应用程序初始化完成 - Thread-3 (_run_event_loop)
+2025-04-01 21:26:57,398[MusicPlayer] - INFO - 音乐播放器初始化完成 - MainThread
+2025-04-01 21:26:57,421[Application] - INFO - 物联网设备初始化完成 - MainThread
+2025-04-01 21:26:57,646[CliDisplay] - INFO - 音量控制器初始化成功，当前音量: 25% - MainThread
+2025-04-01 21:26:57,646[CliDisplay] - INFO - 键盘监听器初始化成功 - MainThread
+2025-04-01 21:27:05,925[WakeWordDetector] - INFO - 实时检测到唤醒词: '你好' (部分文本: 你好) - Thread-2 (_detection_loop)
+2025-04-01 21:27:05,925[Application] - INFO - 检测到唤醒词: 你好 (完整文本: 你好) - Thread-2 (_detection_loop)
+2025-04-01 21:27:05,932[WakeWordDetector] - INFO - 唤醒词检测已暂停 - Thread-1 (_main_loop)
+2025-04-01 21:27:06,280[Application] - INFO - 音频通道已打开 - Thread-3 (_run_event_loop)
+2025-04-01 21:27:06,282[WebsocketProtocol] - INFO - 成功处理服务器 hello 消息 - Thread-3 (_run_event_loop)
+2025-04-01 21:27:06,282[WebsocketProtocol] - INFO - 已连接到WebSocket服务器 - Thread-3 (_run_event_loop)
+2025-04-01 21:27:06,283[Application] - INFO - 已启动输入事件触发线程 - Thread-1 (_main_loop)
+2025-04-01 21:27:06,284[Application] - INFO - 已启动输出事件触发线程 - Thread-1 (_main_loop)
+2025-04-01 21:27:06,284[Application] - INFO - 音频流已启动 - Thread-1 (_main_loop)
+2025-04-01 21:27:06,358[Application] - INFO - >> 你好 - Thread-3 (_run_event_loop)
+2025-04-01 21:27:06,369[AudioCodec] - INFO - 音频输入已暂停 - Thread-1 (_main_loop)
+2025-04-01 21:27:06,836[Application] - INFO - << 你好！ - Thread-3 (_run_event_loop)
+2025-04-01 21:27:11,086[Application] - INFO - << 有什么好玩的事儿吗？ - Thread-3 (_run_event_loop)
+2025-04-01 21:27:13,892[AudioCodec] - INFO - 音频输入已恢复 - Thread-9 (delayed_state_change)
+2025-04-01 21:27:17,430[Application] - INFO - >> 今天真的很难过。 - Thread-3 (_run_event_loop)
+2025-04-01 21:27:17,439[AudioCodec] - INFO - 音频输入已暂停 - Thread-1 (_main_loop)
+2025-04-01 21:27:17,860[Application] - INFO - << 听到你今天心情不好，我很难过。 - Thread-3 (_run_event_loop)
+2025-04-01 21:27:24,260[Application] - INFO - << 发生了什么让你感到难过的事情呢？ - Thread-3 (_run_event_loop)
+2025-04-01 21:27:27,639[Application] - INFO - << 有时候说出来会好受一些。 - Thread-3 (_run_event_loop)
+2025-04-01 21:27:31,080[AudioCodec] - INFO - 音频输入已恢复 - Thread-10 (delayed_state_change)
+2025-04-01 21:27:35,681[Application] - INFO - >> 我被朋友误会了。 - Thread-3 (_run_event_loop)
+2025-04-01 21:27:35,684[AudioCodec] - INFO - 音频输入已暂停 - Thread-1 (_main_loop)
+2025-04-01 21:27:36,006[Application] - INFO - << 被误会的感觉确实不好受。 - Thread-3 (_run_event_loop)
+2025-04-01 21:27:38,876[Application] - INFO - << 你想要的话，可以告诉我更多，比如误会是怎么发生的，你想怎么解决。 - Thread-3 (_run_event_loop)
+2025-04-01 21:27:45,913[Application] - INFO - << 有时候理清思路也能帮助我们找到解决办法。 - Thread-3 (_run_event_loop)
+2025-04-01 21:27:50,716[AudioCodec] - INFO - 音频输入已恢复 - Thread-11 (delayed_state_change)
+2025-04-01 21:27:58,740[Application] - INFO - >> 就是我觉得我解释了，但他们好像不愿意听。 - Thread-3 (_run_event_loop)
+2025-04-01 21:27:58,743[AudioCodec] - INFO - 音频输入已暂停 - Thread-1 (_main_loop)
+2025-04-01 21:27:59,106[Application] - INFO - << 这种情况确实挺让人沮丧的。 - Thread-3 (_run_event_loop)
+2025-04-01 21:28:02,136[Application] - INFO - << 有时候即使我们努力解释， - Thread-3 (_run_event_loop)
+2025-04-01 21:28:04,877[Application] - INFO - << 对方也可能因为情绪或其他原因不愿意理解。 - Thread-3 (_run_event_loop)
+2025-04-01 21:28:08,759[Application] - INFO - << 你可以考虑给他们一些时间，等他们冷静下来再尝试沟通。 - Thread-3 (_run_event_loop)
+2025-04-01 21:28:14,597[Application] - INFO - << 在这个过程中，保持耐心和真诚很重要。 - Thread-3 (_run_event_loop)
+2025-04-01 21:28:18,776[Application] - INFO - << 你觉得这样做可以吗？ - Thread-3 (_run_event_loop)
+2025-04-01 21:28:21,391[AudioCodec] - INFO - 音频输入已恢复 - Thread-12 (delayed_state_change)
+2025-04-01 21:28:25,707[Application] - INFO - >> 哎，好嘞。 - Thread-3 (_run_event_loop)
+2025-04-01 21:28:25,709[AudioCodec] - INFO - 音频输入已暂停 - Thread-1 (_main_loop)
+2025-04-01 21:28:25,973[Application] - INFO - << 嗯，有时候时间是最好的良药。 - Thread-3 (_run_event_loop)
+2025-04-01 21:28:29,473[Application] - INFO - << 希望你的心情能快点好起来。 - Thread-3 (_run_event_loop)
+2025-04-01 21:28:32,252[Application] - INFO - << 如果有什么需要倾诉的，我在这里哦。 - Thread-3 (_run_event_loop)
+2025-04-01 21:28:36,096[AudioCodec] - INFO - 音频输入已恢复 - Thread-13 (delayed_state_change)
+2025-04-01 21:28:41,857[Application] - INFO - >> 其实今天我遇到了一个大明星。 - Thread-3 (_run_event_loop)
+2025-04-01 21:28:41,859[AudioCodec] - INFO - 音频输入已暂停 - Thread-1 (_main_loop)
+2025-04-01 21:28:42,125[Application] - INFO - << 哇，真的吗？ - Thread-3 (_run_event_loop)
+2025-04-01 21:28:43,762[Application] - INFO - << 遇到的是哪位明星啊？ - Thread-3 (_run_event_loop)
+2025-04-01 21:28:45,983[Application] - INFO - << 有没有合照或者交流什么的？ - Thread-3 (_run_event_loop)
+2025-04-01 21:28:48,546[Application] - INFO - << 听起来很激动啊！ - Thread-3 (_run_event_loop)
+2025-04-01 21:28:51,016[AudioCodec] - INFO - 音频输入已恢复 - Thread-14 (delayed_state_change)
+2025-04-01 21:28:53,644[Application] - INFO - >> 不告诉你。 - Thread-3 (_run_event_loop)
+2025-04-01 21:28:53,654[AudioCodec] - INFO - 音频输入已暂停 - Thread-1 (_main_loop)
+2025-04-01 21:28:54,115[Application] - INFO - << 哈哈，好吧，那我就保持神秘感吧。 - Thread-3 (_run_event_loop)
+2025-04-01 21:28:58,398[Application] - INFO - << 不过能遇到大明星，这确实是个值得开心的事。 - Thread-3 (_run_event_loop)
+2025-04-01 21:29:02,997[Application] - INFO - << 希望这个美好的经历能让你的心情好一些。 - Thread-3 (_run_event_loop)
+2025-04-01 21:29:06,817[Application] - INFO - << 如果有什么想分享的，我随时都在这里听你说。 - Thread-3 (_run_event_loop)
+2025-04-01 21:29:11,197[AudioCodec] - INFO - 音频输入已恢复 - Thread-15 (delayed_state_change)
+2025-04-01 21:29:13,846[Main] - INFO - 接收到中断信号，正在关闭... - MainThread
+2025-04-01 21:29:13,846[Application] - INFO - 正在关闭应用程序... - MainThread
+2025-04-01 21:29:13,847[AudioCodec] - INFO - 开始关闭音频编解码器... - MainThread
+2025-04-01 21:29:14,109[Main] - INFO - 接收到中断信号，正在关闭... - MainThread
+2025-04-01 21:29:14,110[Application] - INFO - 正在关闭应用程序... - MainThread
+2025-04-01 21:29:14,290[Application] - INFO - 应用程序已关闭 - MainThread
+2025-04-01 21:32:53,394[root] - INFO - 日志系统已初始化，日志文件: /Users/jiangjinjing/Documents/workspace/dog/py-xiaozhi/src/utils/../../logs/app.log - MainThread
+2025-04-01 21:32:53,395[Main] - INFO - 应用程序已启动，按Ctrl+C退出 - MainThread
+2025-04-01 21:32:53,395[Application] - INFO - 主循环已启动 - Thread-1 (_main_loop)
+2025-04-01 21:32:53,486[Application] - INFO - 开发环境下使用模型路径: /Users/jiangjinjing/Documents/workspace/dog/py-xiaozhi/models/vosk-model-small-cn-0.22 - MainThread
+2025-04-01 21:32:53,486[WakeWordDetector] - INFO - 正在加载语音识别模型: /Users/jiangjinjing/Documents/workspace/dog/py-xiaozhi/models/vosk-model-small-cn-0.22 - MainThread
+2025-04-01 21:32:53,703[WakeWordDetector] - INFO - 模型加载完成 - MainThread
+2025-04-01 21:32:53,703[WakeWordDetector] - INFO - 已配置 2 个唤醒词 - MainThread
+2025-04-01 21:32:53,703[Application] - INFO - 唤醒词检测器初始化成功 - MainThread
+2025-04-01 21:32:53,703[Application] - WARNING - 音频编解码器尚未初始化，唤醒词检测器将使用独立音频流 - MainThread
+2025-04-01 21:32:53,759[WakeWordDetector] - INFO - 唤醒词检测器使用内部音频流 - MainThread
+2025-04-01 21:32:53,760[WakeWordDetector] - INFO - 唤醒词检测循环已启动 - Thread-2 (_detection_loop)
+2025-04-01 21:32:53,760[WakeWordDetector] - INFO - 唤醒词检测已启动 - MainThread
+2025-04-01 21:32:53,865[Application] - INFO - 正在初始化应用程序... - Thread-3 (_run_event_loop)
+2025-04-01 21:32:53,976[AudioCodec] - INFO - 使用默认设备: MacBook Pro Microphone (Index: 0) - Thread-3 (_run_event_loop)
+2025-04-01 21:32:53,976[AudioCodec] - INFO - 使用默认设备: MacBook Pro Speakers (Index: 1) - Thread-3 (_run_event_loop)
+2025-04-01 21:32:54,165[AudioCodec] - INFO - 音频设备和编解码器初始化成功 - Thread-3 (_run_event_loop)
+2025-04-01 21:32:54,165[Application] - INFO - 音频编解码器初始化成功 - Thread-3 (_run_event_loop)
+2025-04-01 21:32:54,165[Application] - INFO - 系统音量控制未启用，将使用模拟音量控制 - Thread-3 (_run_event_loop)
+2025-04-01 21:32:54,165[Application] - INFO - 应用程序初始化完成 - Thread-3 (_run_event_loop)
+2025-04-01 21:32:54,531[MusicPlayer] - INFO - 音乐播放器初始化完成 - MainThread
+2025-04-01 21:32:54,559[Application] - INFO - 物联网设备初始化完成 - MainThread
+2025-04-01 21:32:54,788[CliDisplay] - INFO - 音量控制器初始化成功，当前音量: 25% - MainThread
+2025-04-01 21:32:54,789[CliDisplay] - INFO - 键盘监听器初始化成功 - MainThread
+2025-04-01 21:32:56,946[WakeWordDetector] - INFO - 实时检测到唤醒词: '你好' (部分文本: 你好) - Thread-2 (_detection_loop)
+2025-04-01 21:32:56,946[Application] - INFO - 检测到唤醒词: 你好 (完整文本: 你好) - Thread-2 (_detection_loop)
+2025-04-01 21:32:56,957[WakeWordDetector] - INFO - 唤醒词检测已暂停 - Thread-1 (_main_loop)
+2025-04-01 21:32:57,277[Application] - INFO - 音频通道已打开 - Thread-3 (_run_event_loop)
+2025-04-01 21:32:57,278[WebsocketProtocol] - INFO - 成功处理服务器 hello 消息 - Thread-3 (_run_event_loop)
+2025-04-01 21:32:57,278[WebsocketProtocol] - INFO - 已连接到WebSocket服务器 - Thread-3 (_run_event_loop)
+2025-04-01 21:32:57,281[Application] - INFO - 已启动输入事件触发线程 - Thread-1 (_main_loop)
+2025-04-01 21:32:57,281[Application] - INFO - 已启动输出事件触发线程 - Thread-1 (_main_loop)
+2025-04-01 21:32:57,281[Application] - INFO - 音频流已启动 - Thread-1 (_main_loop)
+2025-04-01 21:32:57,344[Application] - INFO - >> 你好 - Thread-3 (_run_event_loop)
+2025-04-01 21:32:57,354[AudioCodec] - INFO - 音频输入已暂停 - Thread-1 (_main_loop)
+2025-04-01 21:32:57,775[Application] - INFO - << 你好，有什么事吗？ - Thread-3 (_run_event_loop)
+2025-04-01 21:33:00,472[AudioCodec] - INFO - 音频输入已恢复 - Thread-9 (delayed_state_change)
+2025-04-01 21:33:03,128[Application] - INFO - >> 怎么不耐烦的样子哎。 - Thread-3 (_run_event_loop)
+2025-04-01 21:33:03,137[AudioCodec] - INFO - 音频输入已暂停 - Thread-1 (_main_loop)
+2025-04-01 21:33:03,877[Application] - INFO - << 哎呀，不是的，我这人就是话不多，你有什么心事，咱们慢慢说。 - Thread-3 (_run_event_loop)
+2025-04-01 21:33:10,133[AudioCodec] - INFO - 音频输入已恢复 - Thread-10 (delayed_state_change)
+2025-04-01 21:33:14,162[Application] - INFO - >> 好吧。 - Thread-3 (_run_event_loop)
+2025-04-01 21:33:14,163[AudioCodec] - INFO - 音频输入已暂停 - Thread-1 (_main_loop)
+2025-04-01 21:33:14,628[Application] - INFO - << 嗯，那你想先聊点什么呢？ - Thread-3 (_run_event_loop)
+2025-04-01 21:33:18,162[AudioCodec] - INFO - 音频输入已恢复 - Thread-11 (delayed_state_change)
+2025-04-01 21:33:20,285[Application] - INFO - >> 朋友。 - Thread-3 (_run_event_loop)
+2025-04-01 21:33:20,287[AudioCodec] - INFO - 音频输入已暂停 - Thread-1 (_main_loop)
+2025-04-01 21:33:20,575[Application] - INFO - << 朋友啊，是遇到了什么问题吗？ - Thread-3 (_run_event_loop)
+2025-04-01 21:33:23,390[Application] - INFO - << 或者有什么有趣的事情想要分享？ - Thread-3 (_run_event_loop)
+2025-04-01 21:33:26,858[AudioCodec] - INFO - 音频输入已恢复 - Thread-12 (delayed_state_change)
+2025-04-01 21:33:31,190[Application] - INFO - >> 哎，我今天特别的伤心。 - Thread-3 (_run_event_loop)
+2025-04-01 21:33:31,201[AudioCodec] - INFO - 音频输入已暂停 - Thread-1 (_main_loop)
+2025-04-01 21:33:31,556[Application] - INFO - << 听到你伤心，我也很难过。 - Thread-3 (_run_event_loop)
+2025-04-01 21:33:34,640[Application] - INFO - << 发生了什么事情让你感到这样？ - Thread-3 (_run_event_loop)
+2025-04-01 21:33:37,553[AudioCodec] - INFO - 音频输入已恢复 - Thread-13 (delayed_state_change)
+2025-04-01 21:33:42,693[Application] - INFO - >> 因为什么大不了的。 - Thread-3 (_run_event_loop)
+2025-04-01 21:33:42,700[AudioCodec] - INFO - 音频输入已暂停 - Thread-1 (_main_loop)
+2025-04-01 21:33:43,615[Application] - INFO - << 有时候，即使是一些小事，也会影响到我们的心情。 - Thread-3 (_run_event_loop)
+2025-04-01 21:33:48,356[Application] - INFO - << 你愿意告诉我具体是什么事吗？ - Thread-3 (_run_event_loop)
+2025-04-01 21:33:51,720[AudioCodec] - INFO - 音频输入已恢复 - Thread-14 (delayed_state_change)
+2025-04-01 21:33:54,899[Application] - INFO - >> 也没什么大不了的。 - Thread-3 (_run_event_loop)
+2025-04-01 21:33:54,907[AudioCodec] - INFO - 音频输入已暂停 - Thread-1 (_main_loop)
+2025-04-01 21:33:55,285[Application] - INFO - << 嗯，我明白。 - Thread-3 (_run_event_loop)
+2025-04-01 21:33:57,166[Application] - INFO - << 有时候就是需要一个倾听者，你可以跟我说说，或许心里会好受一些。 - Thread-3 (_run_event_loop)
+2025-04-01 21:34:03,485[AudioCodec] - INFO - 音频输入已恢复 - Thread-15 (delayed_state_change)
+2025-04-01 21:34:46,870[Application] - INFO - >> 我感觉好焦虑。 - Thread-3 (_run_event_loop)
+2025-04-01 21:34:46,876[AudioCodec] - INFO - 音频输入已暂停 - Thread-1 (_main_loop)
+2025-04-01 21:34:47,203[Application] - INFO - << 焦虑的感觉确实很难受。 - Thread-3 (_run_event_loop)
+2025-04-01 21:34:49,728[Application] - INFO - << 是什么让你感到焦虑呢？ - Thread-3 (_run_event_loop)
+2025-04-01 21:34:52,048[Application] - INFO - << 有没有什么特别的事情或者想法？ - Thread-3 (_run_event_loop)
+2025-04-01 21:34:55,689[AudioCodec] - INFO - 音频输入已恢复 - Thread-16 (delayed_state_change)
+2025-04-01 21:35:00,890[Application] - INFO - >> 工作上的事。 - Thread-3 (_run_event_loop)
+2025-04-01 21:35:00,895[AudioCodec] - INFO - 音频输入已暂停 - Thread-1 (_main_loop)
+2025-04-01 21:35:01,537[Application] - INFO - << 工作上的事情啊，是遇到了什么具体的问题吗？ - Thread-3 (_run_event_loop)
+2025-04-01 21:35:05,202[Application] - INFO - << 还是说有一些压力和不确定的感觉？ - Thread-3 (_run_event_loop)
+2025-04-01 21:35:09,213[AudioCodec] - INFO - 音频输入已恢复 - Thread-17 (delayed_state_change)
+2025-04-01 21:35:12,438[Application] - INFO - >> 是太多事情要做。 - Thread-3 (_run_event_loop)
+2025-04-01 21:35:12,446[AudioCodec] - INFO - 音频输入已暂停 - Thread-1 (_main_loop)
+2025-04-01 21:35:12,745[Application] - INFO - << 嗯，工作上的事情确实会让人感到压力。 - Thread-3 (_run_event_loop)
+2025-04-01 21:35:16,506[Application] - INFO - << 你觉得最让你头疼的是哪一部分呢？ - Thread-3 (_run_event_loop)
+2025-04-01 21:35:19,386[Application] - INFO - << 有没有什么是可以先放一放的？ - Thread-3 (_run_event_loop)
+2025-04-01 21:35:22,776[AudioCodec] - INFO - 音频输入已恢复 - Thread-18 (delayed_state_change)
+2025-04-01 21:35:29,358[Application] - INFO - >> 哎，老板让我做一个很难的项目，我怕自己做不好。 - Thread-3 (_run_event_loop)
+2025-04-01 21:35:29,371[AudioCodec] - INFO - 音频输入已暂停 - Thread-1 (_main_loop)
+2025-04-01 21:35:32,143[Application] - INFO - << 这样啊，面对难度大的项目确实会让人感到焦虑。 - Thread-3 (_run_event_loop)
+2025-04-01 21:35:36,733[Application] - INFO - << 不过，你之前肯定也有过成功的经验，那些经验可以给你信心。 - Thread-3 (_run_event_loop)
+2025-04-01 21:35:41,993[Application] - INFO - << 你可以先从哪些方面入手呢？ - Thread-3 (_run_event_loop)
+2025-04-01 21:35:44,594[Application] - INFO - << 有没有什么资源可以利用？ - Thread-3 (_run_event_loop)
+2025-04-01 21:35:47,455[AudioCodec] - INFO - 音频输入已恢复 - Thread-19 (delayed_state_change)
+2025-04-01 21:36:41,411[Application] - INFO - >> 亲爱的，我们到此为止吧。 - Thread-3 (_run_event_loop)
+2025-04-01 21:36:41,413[AudioCodec] - INFO - 音频输入已暂停 - Thread-1 (_main_loop)
+2025-04-01 21:36:42,125[Application] - INFO - << 听到你这么说，我感到很难过。 - Thread-3 (_run_event_loop)
+2025-04-01 21:36:45,060[Application] - INFO - << 发生了什么事情让你有这种想法？ - Thread-3 (_run_event_loop)
+2025-04-01 21:36:47,639[Application] - INFO - << 我们可以一起聊聊，看看能不能找到解决的方法。 - Thread-3 (_run_event_loop)
+2025-04-01 21:36:51,267[Main] - INFO - 接收到中断信号，正在关闭... - MainThread
+2025-04-01 21:36:51,268[Application] - INFO - 正在关闭应用程序... - MainThread
+2025-04-01 21:36:51,268[AudioCodec] - INFO - 开始关闭音频编解码器... - MainThread
+2025-04-01 21:36:51,561[Main] - INFO - 接收到中断信号，正在关闭... - MainThread
+2025-04-01 21:36:51,562[Application] - INFO - 正在关闭应用程序... - MainThread
+2025-04-01 21:36:51,713[Application] - INFO - 应用程序已关闭 - MainThread
+2025-04-01 21:36:54,135[root] - INFO - 日志系统已初始化，日志文件: /Users/jiangjinjing/Documents/workspace/dog/py-xiaozhi/src/utils/../../logs/app.log - MainThread
+2025-04-01 21:36:54,136[Main] - INFO - 应用程序已启动，按Ctrl+C退出 - MainThread
+2025-04-01 21:36:54,136[Application] - INFO - 主循环已启动 - Thread-1 (_main_loop)
+2025-04-01 21:36:54,218[Application] - INFO - 开发环境下使用模型路径: /Users/jiangjinjing/Documents/workspace/dog/py-xiaozhi/models/vosk-model-small-cn-0.22 - MainThread
+2025-04-01 21:36:54,218[WakeWordDetector] - INFO - 正在加载语音识别模型: /Users/jiangjinjing/Documents/workspace/dog/py-xiaozhi/models/vosk-model-small-cn-0.22 - MainThread
+2025-04-01 21:36:54,407[WakeWordDetector] - INFO - 模型加载完成 - MainThread
+2025-04-01 21:36:54,407[WakeWordDetector] - INFO - 已配置 2 个唤醒词 - MainThread
+2025-04-01 21:36:54,407[Application] - INFO - 唤醒词检测器初始化成功 - MainThread
+2025-04-01 21:36:54,407[Application] - WARNING - 音频编解码器尚未初始化，唤醒词检测器将使用独立音频流 - MainThread
+2025-04-01 21:36:54,466[WakeWordDetector] - INFO - 唤醒词检测器使用内部音频流 - MainThread
+2025-04-01 21:36:54,466[WakeWordDetector] - INFO - 唤醒词检测循环已启动 - Thread-2 (_detection_loop)
+2025-04-01 21:36:54,466[WakeWordDetector] - INFO - 唤醒词检测已启动 - MainThread
+2025-04-01 21:36:54,567[Application] - INFO - 正在初始化应用程序... - Thread-3 (_run_event_loop)
+2025-04-01 21:36:54,667[AudioCodec] - INFO - 使用默认设备: MacBook Pro Microphone (Index: 0) - Thread-3 (_run_event_loop)
+2025-04-01 21:36:54,667[AudioCodec] - INFO - 使用默认设备: MacBook Pro Speakers (Index: 1) - Thread-3 (_run_event_loop)
+2025-04-01 21:36:54,774[AudioCodec] - INFO - 音频设备和编解码器初始化成功 - Thread-3 (_run_event_loop)
+2025-04-01 21:36:54,774[Application] - INFO - 音频编解码器初始化成功 - Thread-3 (_run_event_loop)
+2025-04-01 21:36:54,774[Application] - INFO - 系统音量控制未启用，将使用模拟音量控制 - Thread-3 (_run_event_loop)
+2025-04-01 21:36:54,774[Application] - INFO - 应用程序初始化完成 - Thread-3 (_run_event_loop)
+2025-04-01 21:36:55,108[MusicPlayer] - INFO - 音乐播放器初始化完成 - MainThread
+2025-04-01 21:36:55,134[Application] - INFO - 物联网设备初始化完成 - MainThread
+2025-04-01 21:36:55,362[CliDisplay] - INFO - 音量控制器初始化成功，当前音量: 25% - MainThread
+2025-04-01 21:36:55,363[CliDisplay] - INFO - 键盘监听器初始化成功 - MainThread
+2025-04-01 21:37:11,576[WakeWordDetector] - INFO - 实时检测到唤醒词: '你好' (部分文本: 你好) - Thread-2 (_detection_loop)
+2025-04-01 21:37:11,577[Application] - INFO - 检测到唤醒词: 你好 (完整文本: 你好) - Thread-2 (_detection_loop)
+2025-04-01 21:37:11,579[WakeWordDetector] - INFO - 唤醒词检测已暂停 - Thread-1 (_main_loop)
+2025-04-01 21:37:12,103[Application] - INFO - 音频通道已打开 - Thread-3 (_run_event_loop)
+2025-04-01 21:37:12,104[WebsocketProtocol] - INFO - 成功处理服务器 hello 消息 - Thread-3 (_run_event_loop)
+2025-04-01 21:37:12,105[WebsocketProtocol] - INFO - 已连接到WebSocket服务器 - Thread-3 (_run_event_loop)
+2025-04-01 21:37:12,110[Application] - INFO - 已启动输入事件触发线程 - Thread-1 (_main_loop)
+2025-04-01 21:37:12,110[Application] - INFO - 已启动输出事件触发线程 - Thread-1 (_main_loop)
+2025-04-01 21:37:12,111[Application] - INFO - 音频流已启动 - Thread-1 (_main_loop)
+2025-04-01 21:37:12,184[Application] - INFO - >> 你好 - Thread-3 (_run_event_loop)
+2025-04-01 21:37:12,198[AudioCodec] - INFO - 音频输入已暂停 - Thread-1 (_main_loop)
+2025-04-01 21:37:13,206[Application] - INFO - << 你好，最近怎么样？ - Thread-3 (_run_event_loop)
+2025-04-01 21:37:16,615[AudioCodec] - INFO - 音频输入已恢复 - Thread-9 (delayed_state_change)
+2025-04-01 21:37:20,674[Application] - INFO - >> 还不错呀，你呢？ - Thread-3 (_run_event_loop)
+2025-04-01 21:37:20,684[AudioCodec] - INFO - 音频输入已暂停 - Thread-1 (_main_loop)
+2025-04-01 21:37:21,137[Application] - INFO - << 我也挺好的，谢谢关心。 - Thread-3 (_run_event_loop)
+2025-04-01 21:37:24,791[Application] - INFO - << 有什么新鲜事儿吗？ - Thread-3 (_run_event_loop)
+2025-04-01 21:37:27,749[AudioCodec] - INFO - 音频输入已恢复 - Thread-10 (delayed_state_change)
+2025-04-01 21:37:35,412[Application] - INFO - >> 哎，每天两点一线就是工作上的事喽，没有什么别的事情。 - Thread-3 (_run_event_loop)
+2025-04-01 21:37:35,418[AudioCodec] - INFO - 音频输入已暂停 - Thread-1 (_main_loop)
+2025-04-01 21:37:35,693[Application] - INFO - << 工作虽然忙碌，但也充实。 - Thread-3 (_run_event_loop)
+2025-04-01 21:37:39,942[Application] - INFO - << 最近有没有遇到什么挑战，或者有什么进展？ - Thread-3 (_run_event_loop)
+2025-04-01 21:37:45,523[AudioCodec] - INFO - 音频输入已恢复 - Thread-11 (delayed_state_change)
+2025-04-01 21:37:52,968[Application] - INFO - >> 哎，我其实今天超级开心的，尤其见到你就更开心了。 - Thread-3 (_run_event_loop)
+2025-04-01 21:37:52,979[AudioCodec] - INFO - 音频输入已暂停 - Thread-1 (_main_loop)
+2025-04-01 21:37:53,373[Application] - INFO - << 太好了，开心的事一定要分享！ - Thread-3 (_run_event_loop)
+2025-04-01 21:37:58,425[Application] - INFO - << 是什么让你今天这么高兴呢？ - Thread-3 (_run_event_loop)
+2025-04-01 21:38:02,284[AudioCodec] - INFO - 音频输入已恢复 - Thread-12 (delayed_state_change)
+2025-04-01 21:38:17,916[Main] - INFO - 接收到中断信号，正在关闭... - MainThread
+2025-04-01 21:38:17,918[Application] - INFO - 正在关闭应用程序... - MainThread
+2025-04-01 21:38:17,918[AudioCodec] - INFO - 开始关闭音频编解码器... - MainThread
+2025-04-01 21:38:18,212[Main] - INFO - 接收到中断信号，正在关闭... - MainThread
+2025-04-01 21:38:18,212[Application] - INFO - 正在关闭应用程序... - MainThread
+2025-04-01 21:38:18,449[Application] - INFO - 应用程序已关闭 - MainThread
+2025-04-01 21:38:23,421[root] - INFO - 日志系统已初始化，日志文件: /Users/jiangjinjing/Documents/workspace/dog/py-xiaozhi/src/utils/../../logs/app.log - MainThread
+2025-04-01 21:38:23,423[Main] - INFO - 应用程序已启动，按Ctrl+C退出 - MainThread
+2025-04-01 21:38:23,424[Application] - INFO - 主循环已启动 - Thread-1 (_main_loop)
+2025-04-01 21:38:23,735[Application] - INFO - 开发环境下使用模型路径: /Users/jiangjinjing/Documents/workspace/dog/py-xiaozhi/models/vosk-model-small-cn-0.22 - MainThread
+2025-04-01 21:38:23,735[WakeWordDetector] - INFO - 正在加载语音识别模型: /Users/jiangjinjing/Documents/workspace/dog/py-xiaozhi/models/vosk-model-small-cn-0.22 - MainThread
+2025-04-01 21:38:23,977[WakeWordDetector] - INFO - 模型加载完成 - MainThread
+2025-04-01 21:38:23,978[WakeWordDetector] - INFO - 已配置 2 个唤醒词 - MainThread
+2025-04-01 21:38:23,978[Application] - INFO - 唤醒词检测器初始化成功 - MainThread
+2025-04-01 21:38:23,978[Application] - WARNING - 音频编解码器尚未初始化，唤醒词检测器将使用独立音频流 - MainThread
+2025-04-01 21:38:24,071[WakeWordDetector] - INFO - 唤醒词检测器使用内部音频流 - MainThread
+2025-04-01 21:38:24,071[WakeWordDetector] - INFO - 唤醒词检测循环已启动 - Thread-2 (_detection_loop)
+2025-04-01 21:38:24,071[WakeWordDetector] - INFO - 唤醒词检测已启动 - MainThread
+2025-04-01 21:38:24,177[Application] - INFO - 正在初始化应用程序... - Thread-3 (_run_event_loop)
+2025-04-01 21:38:24,702[AudioCodec] - INFO - 使用默认设备: MacBook Pro Microphone (Index: 0) - Thread-3 (_run_event_loop)
+2025-04-01 21:38:24,703[AudioCodec] - INFO - 使用默认设备: MacBook Pro Speakers (Index: 1) - Thread-3 (_run_event_loop)
+2025-04-01 21:38:25,426[AudioCodec] - INFO - 音频设备和编解码器初始化成功 - Thread-3 (_run_event_loop)
+2025-04-01 21:38:25,426[Application] - INFO - 音频编解码器初始化成功 - Thread-3 (_run_event_loop)
+2025-04-01 21:38:25,426[Application] - INFO - 系统音量控制未启用，将使用模拟音量控制 - Thread-3 (_run_event_loop)
+2025-04-01 21:38:25,426[Application] - INFO - 应用程序初始化完成 - Thread-3 (_run_event_loop)
+2025-04-01 21:38:29,316[MusicPlayer] - INFO - 音乐播放器初始化完成 - MainThread
+2025-04-01 21:38:29,500[Application] - INFO - 物联网设备初始化完成 - MainThread
+2025-04-01 21:38:29,796[CliDisplay] - INFO - 音量控制器初始化成功，当前音量: 25% - MainThread
+2025-04-01 21:38:29,797[CliDisplay] - INFO - 键盘监听器初始化成功 - MainThread
+2025-04-01 21:38:46,707[WakeWordDetector] - INFO - 实时检测到唤醒词: '你好' (部分文本: 你好) - Thread-2 (_detection_loop)
+2025-04-01 21:38:46,708[Application] - INFO - 检测到唤醒词: 你好 (完整文本: 你好) - Thread-2 (_detection_loop)
+2025-04-01 21:38:46,716[WakeWordDetector] - INFO - 唤醒词检测已暂停 - Thread-1 (_main_loop)
+2025-04-01 21:38:47,044[Application] - INFO - 音频通道已打开 - Thread-3 (_run_event_loop)
+2025-04-01 21:38:47,045[WebsocketProtocol] - INFO - 成功处理服务器 hello 消息 - Thread-3 (_run_event_loop)
+2025-04-01 21:38:47,045[WebsocketProtocol] - INFO - 已连接到WebSocket服务器 - Thread-3 (_run_event_loop)
+2025-04-01 21:38:47,047[Application] - INFO - 已启动输入事件触发线程 - Thread-1 (_main_loop)
+2025-04-01 21:38:47,048[Application] - INFO - 已启动输出事件触发线程 - Thread-1 (_main_loop)
+2025-04-01 21:38:47,048[Application] - INFO - 音频流已启动 - Thread-1 (_main_loop)
+2025-04-01 21:38:47,115[Application] - INFO - >> 你好 - Thread-3 (_run_event_loop)
+2025-04-01 21:38:47,121[AudioCodec] - INFO - 音频输入已暂停 - Thread-1 (_main_loop)
+2025-04-01 21:38:48,099[Application] - INFO - << 你好呀，今天过得怎么样？ - Thread-3 (_run_event_loop)
+2025-04-01 21:38:51,878[AudioCodec] - INFO - 音频输入已恢复 - Thread-9 (delayed_state_change)
+2025-04-01 21:38:57,626[Application] - INFO - >> 还不错呀，你呢？ - Thread-3 (_run_event_loop)
+2025-04-01 21:38:57,636[AudioCodec] - INFO - 音频输入已暂停 - Thread-1 (_main_loop)
+2025-04-01 21:38:58,071[Application] - INFO - << 我也挺好的，谢谢关心。 - Thread-3 (_run_event_loop)
+2025-04-01 21:39:01,043[Application] - INFO - << 听说今天是愚人节，有没有被恶作剧呢？ - Thread-3 (_run_event_loop)
+2025-04-01 21:39:06,336[AudioCodec] - INFO - 音频输入已恢复 - Thread-10 (delayed_state_change)
+2025-04-01 21:39:09,278[Application] - INFO - >> 怎么知道今天是愚人节。 - Thread-3 (_run_event_loop)
+2025-04-01 21:39:09,286[AudioCodec] - INFO - 音频输入已暂停 - Thread-1 (_main_loop)
+2025-04-01 21:39:09,862[Application] - INFO - << 因为日历上写着嘛，今天是2025年4月1日， - Thread-3 (_run_event_loop)
+2025-04-01 21:39:14,860[Application] - INFO - << 星期二，也是愚人节哦。 - Thread-3 (_run_event_loop)
+2025-04-01 21:39:17,719[Application] - INFO - << 有没有什么特别的计划？ - Thread-3 (_run_event_loop)
+2025-04-01 21:39:20,709[AudioCodec] - INFO - 音频输入已恢复 - Thread-11 (delayed_state_change)
+2025-04-01 21:39:24,214[Application] - INFO - >> 啊好，我想出去旅游。 - Thread-3 (_run_event_loop)
+2025-04-01 21:39:24,222[AudioCodec] - INFO - 音频输入已暂停 - Thread-1 (_main_loop)
+2025-04-01 21:39:24,488[Application] - INFO - << 出去旅游听起来很棒！ - Thread-3 (_run_event_loop)
+2025-04-01 21:39:27,116[Application] - INFO - << 有什么地方想去吗？ - Thread-3 (_run_event_loop)
+2025-04-01 21:39:29,154[Application] - INFO - << 或者需要我帮忙查查天气和景点信息？ - Thread-3 (_run_event_loop)
+2025-04-01 21:39:33,563[AudioCodec] - INFO - 音频输入已恢复 - Thread-12 (delayed_state_change)
+2025-04-01 21:39:43,256[Application] - INFO - >> 云南天气怎么样？ - Thread-3 (_run_event_loop)
+2025-04-01 21:39:43,260[AudioCodec] - INFO - 音频输入已暂停 - Thread-1 (_main_loop)
+2025-04-01 21:39:44,606[Application] - INFO - << 云南的天气还挺不错的。 - Thread-3 (_run_event_loop)
+2025-04-01 21:39:47,264[Application] - INFO - << 今天昆明是多云转晴，白天温度在11度左右，晚上会降到8度。 - Thread-3 (_run_event_loop)
+2025-04-01 21:39:54,400[Application] - INFO - << 风力不大，主要是东风。 - Thread-3 (_run_event_loop)
+2025-04-01 21:39:57,400[Application] - INFO - << 适合出去玩哦，不过记得带件外套，早晚温差有点大。 - Thread-3 (_run_event_loop)
+2025-04-01 21:40:03,857[AudioCodec] - INFO - 音频输入已恢复 - Thread-13 (delayed_state_change)
+2025-04-01 21:40:09,888[Application] - INFO - >> 哇，你也太棒了吧，我好开心哦。 - Thread-3 (_run_event_loop)
+2025-04-01 21:40:09,889[AudioCodec] - INFO - 音频输入已暂停 - Thread-1 (_main_loop)
+2025-04-01 21:40:10,262[Application] - INFO - << 听到你开心我也很高兴！ - Thread-3 (_run_event_loop)
+2025-04-01 21:40:12,999[Application] - INFO - << 那你打算什么时候出发呢？ - Thread-3 (_run_event_loop)
+2025-04-01 21:40:15,799[Application] - INFO - << 有没有什么特别想去的地方？ - Thread-3 (_run_event_loop)
+2025-04-01 21:40:19,299[AudioCodec] - INFO - 音频输入已恢复 - Thread-14 (delayed_state_change)
+2025-04-01 21:40:21,971[Application] - INFO - >> 不告诉你。 - Thread-3 (_run_event_loop)
+2025-04-01 21:40:21,978[AudioCodec] - INFO - 音频输入已暂停 - Thread-1 (_main_loop)
+2025-04-01 21:40:22,302[Application] - INFO - << 哈哈，那我就等你的好消息啦。 - Thread-3 (_run_event_loop)
+2025-04-01 21:40:25,897[Application] - INFO - << 旅行愉快，记得拍美美的照片分享给我哦！ - Thread-3 (_run_event_loop)
+2025-04-01 21:40:31,111[AudioCodec] - INFO - 音频输入已恢复 - Thread-15 (delayed_state_change)
+2025-04-01 21:40:33,207[Application] - INFO - >> 拍给你。 - Thread-3 (_run_event_loop)
+2025-04-01 21:40:33,215[AudioCodec] - INFO - 音频输入已暂停 - Thread-1 (_main_loop)
+2025-04-01 21:40:33,512[Application] - INFO - << 太好了，我等着看你的照片。 - Thread-3 (_run_event_loop)
+2025-04-01 21:40:36,868[Application] - INFO - << 有什么需要帮忙的尽管告诉我，路上注意安全哦！ - Thread-3 (_run_event_loop)
+2025-04-01 21:40:43,067[AudioCodec] - INFO - 音频输入已恢复 - Thread-16 (delayed_state_change)
+2025-04-01 21:40:46,806[Application] - INFO - >> 这也太牛了吧，我天。 - Thread-3 (_run_event_loop)
+2025-04-01 21:40:46,809[AudioCodec] - INFO - 音频输入已暂停 - Thread-1 (_main_loop)
+2025-04-01 21:40:47,138[Application] - INFO - << 哎呀，怎么了？ - Thread-3 (_run_event_loop)
+2025-04-01 21:40:49,097[Application] - INFO - << 是不是遇到了什么烦心事？ - Thread-3 (_run_event_loop)
+2025-04-01 21:40:51,698[Application] - INFO - << 有时候说出来会好受一些。 - Thread-3 (_run_event_loop)
+2025-04-01 21:40:55,136[AudioCodec] - INFO - 音频输入已恢复 - Thread-17 (delayed_state_change)
+2025-04-01 21:41:10,136[Application] - INFO - >> 等一下。 - Thread-3 (_run_event_loop)
+2025-04-01 21:41:10,148[AudioCodec] - INFO - 音频输入已暂停 - Thread-1 (_main_loop)
+2025-04-01 21:41:11,225[Application] - INFO - << 好的，不急，我在这儿等你。 - Thread-3 (_run_event_loop)
+2025-04-01 21:41:14,497[Application] - INFO - << 有什么想聊的随时告诉我。 - Thread-3 (_run_event_loop)
+2025-04-01 21:41:18,108[AudioCodec] - INFO - 音频输入已恢复 - Thread-18 (delayed_state_change)
+2025-04-01 21:41:21,067[Application] - INFO - >> 不告诉你。 - Thread-3 (_run_event_loop)
+2025-04-01 21:41:21,068[AudioCodec] - INFO - 音频输入已暂停 - Thread-1 (_main_loop)
+2025-04-01 21:41:21,570[Application] - INFO - << 哈哈，好吧，那我就等你准备好。 - Thread-3 (_run_event_loop)
+2025-04-01 21:41:25,889[Application] - INFO - << 有什么事情可以先聊聊，比如最近有什么有趣的事情吗？ - Thread-3 (_run_event_loop)
+2025-04-01 21:41:31,999[AudioCodec] - INFO - 音频输入已恢复 - Thread-19 (delayed_state_change)
+2025-04-01 21:41:39,206[Application] - INFO - >> 还不错呀，你呢？ - Thread-3 (_run_event_loop)
+2025-04-01 21:41:39,212[AudioCodec] - INFO - 音频输入已暂停 - Thread-1 (_main_loop)
+2025-04-01 21:41:39,498[Application] - INFO - << 我也挺好的，谢谢。 - Thread-3 (_run_event_loop)
+2025-04-01 21:41:42,144[Application] - INFO - << 最近在学习一些新技能，感觉挺有意思的。 - Thread-3 (_run_event_loop)
+2025-04-01 21:41:46,644[Application] - INFO - << 你最近有没有什么新鲜的事情？ - Thread-3 (_run_event_loop)
+2025-04-01 21:41:48,025[Main] - INFO - 接收到中断信号，正在关闭... - MainThread
+2025-04-01 21:41:48,026[Application] - INFO - 正在关闭应用程序... - MainThread
+2025-04-01 21:41:48,026[AudioCodec] - INFO - 开始关闭音频编解码器... - MainThread
+2025-04-01 21:41:48,199[Main] - INFO - 接收到中断信号，正在关闭... - MainThread
+2025-04-01 21:41:48,199[Application] - INFO - 正在关闭应用程序... - MainThread
+2025-04-01 21:41:48,387[Application] - INFO - 应用程序已关闭 - MainThread

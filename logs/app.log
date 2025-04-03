@@ -1,0 +1,31 @@
+2025-04-03 11:40:22,795[root] - INFO - 日志系统已初始化，日志文件: /Users/jiangjinjing/Documents/workspace/dog/py-xiaozhi/src/utils/../../logs/app.log - MainThread
+2025-04-03 11:40:22,796[Main] - INFO - 应用程序已启动，按Ctrl+C退出 - MainThread
+2025-04-03 11:40:22,796[Application] - INFO - 主循环已启动 - Thread-1 (_main_loop)
+2025-04-03 11:40:22,797[Application] - INFO - 唤醒词功能已在配置中禁用，跳过初始化 - MainThread
+2025-04-03 11:40:22,903[Application] - INFO - 正在初始化应用程序... - Thread-2 (_run_event_loop)
+2025-04-03 11:40:23,713[AudioCodec] - INFO - 使用默认设备: MacBook Pro Microphone (Index: 0) - Thread-2 (_run_event_loop)
+2025-04-03 11:40:23,714[AudioCodec] - INFO - 使用默认设备: MacBook Pro Speakers (Index: 1) - Thread-2 (_run_event_loop)
+2025-04-03 11:40:26,566[AudioCodec] - INFO - 音频设备和编解码器初始化成功 - Thread-2 (_run_event_loop)
+2025-04-03 11:40:26,566[Application] - INFO - 音频编解码器初始化成功 - Thread-2 (_run_event_loop)
+2025-04-03 11:40:26,566[Application] - INFO - 系统音量控制未启用，将使用模拟音量控制 - Thread-2 (_run_event_loop)
+2025-04-03 11:40:26,566[Application] - INFO - 应用程序初始化完成 - Thread-2 (_run_event_loop)
+2025-04-03 11:40:29,026[MusicPlayer] - INFO - 音乐播放器初始化完成 - MainThread
+2025-04-03 11:40:29,118[Application] - INFO - 物联网设备初始化完成 - MainThread
+2025-04-03 11:40:29,490[CliDisplay] - INFO - 音量控制器初始化成功，当前音量: 19% - MainThread
+2025-04-03 11:40:29,490[CliDisplay] - INFO - 键盘监听器初始化成功 - MainThread
+2025-04-03 11:41:55,233[Application] - INFO - 音频通道已打开 - Thread-2 (_run_event_loop)
+2025-04-03 11:41:55,234[WebsocketProtocol] - INFO - 成功处理服务器 hello 消息 - Thread-2 (_run_event_loop)
+2025-04-03 11:41:55,234[WebsocketProtocol] - INFO - 已连接到WebSocket服务器 - Thread-2 (_run_event_loop)
+2025-04-03 11:41:55,240[Application] - INFO - 已启动输入事件触发线程 - Thread-1 (_main_loop)
+2025-04-03 11:41:55,241[Application] - INFO - 已启动输出事件触发线程 - Thread-1 (_main_loop)
+2025-04-03 11:41:55,241[Application] - INFO - 音频流已启动 - Thread-1 (_main_loop)
+2025-04-03 11:41:58,517[Application] - INFO - >> Hello hello. - Thread-2 (_run_event_loop)
+2025-04-03 11:41:58,524[AudioCodec] - INFO - 音频输入已暂停 - Thread-1 (_main_loop)
+2025-04-03 11:41:58,857[Application] - INFO - << 嗨，你好呀！ - Thread-2 (_run_event_loop)
+2025-04-03 11:42:00,836[Application] - INFO - << 今天过得怎么样？ - Thread-2 (_run_event_loop)
+2025-04-03 11:42:02,290[Main] - INFO - 接收到中断信号，正在关闭... - MainThread
+2025-04-03 11:42:02,291[Application] - INFO - 正在关闭应用程序... - MainThread
+2025-04-03 11:42:02,291[AudioCodec] - INFO - 开始关闭音频编解码器... - MainThread
+2025-04-03 11:42:02,486[Main] - INFO - 接收到中断信号，正在关闭... - MainThread
+2025-04-03 11:42:02,486[Application] - INFO - 正在关闭应用程序... - MainThread
+2025-04-03 11:42:02,487[Application] - INFO - 应用程序已关闭 - MainThread
